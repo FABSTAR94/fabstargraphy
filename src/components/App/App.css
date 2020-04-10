@@ -1,3 +1,12 @@
+body {
+  background-color: #101010;
+  color: white;
+}
+
+.sections {
+  width: 77%;
+  float: right;
+}
 
 #sidebar {
     padding: 30px;

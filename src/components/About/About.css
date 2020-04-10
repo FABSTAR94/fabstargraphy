@@ -1,0 +1,42 @@
+.container-fluid{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.fab-about{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.sec-header{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: block;
+}
+
+section h3 {
+  margin: 0 !important;
+  line-height: 36px !important;
+}
+
+p{
+  font-size: 12px;
+  line-height: 1.5em;
+  margin: 0 0 20px;
+  color: #999;
+  font-weight: 400;
+}
+
+.signature {
+  width: 150px;
+  height: auto;
+}
