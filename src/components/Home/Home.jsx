@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import PopupPicture from '../Popups/PopupPicture.jsx';
 import { SRLWrapper } from 'simple-react-lightbox';
 import signature from '../../assets/signature.png';
 import cloudy from '../../assets/cloudy.png';
