@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import sample from '../../assets/sample.png';
+import unnamed from '../../assets/unnamed.png';
 import signature from '../../assets/signature.png';
 
 class About extends React.Component {
@@ -16,7 +16,7 @@ class About extends React.Component {
 
           <div class="row">
             <div class="col-md-12">
-              <img src={sample} class="img-fluid"alt="Faviola"/>
+              <img src={unnamed} class="img-fluid"alt="Faviola"/>
             </div>
           </div>
           <div class="row">

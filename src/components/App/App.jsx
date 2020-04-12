@@ -1,10 +1,12 @@
 import React from 'react';
+import SimpleReactLightbox from "simple-react-lightbox";
 import logo from '../../assets/logo.png';
 import './App.css';
 import About from '../About/About.jsx';
 import Home from '../Home/Home.jsx';
 import Services from '../Services/Services.jsx';
 import Gallery from '../Gallery/Gallery.jsx';
+import island from '../../assets/island.png';
 import Contact from '../Contact/Contact.jsx';
 
 const SIDEBAR_OPTIONS = [
@@ -56,15 +58,16 @@ class App extends React.Component {
   render(){
     return(
       <div>
+      <SimpleReactLightbox>
       <section id="sidebar">
       <header>
-      <img class="logo" src={logo}/>
+      <img class="logo" src={logo} height="45px"/>
       <a><h1>Faviola Caballero<br/><span>Fabstargraphy</span></h1></a>
       </header>
       <ul class="side-menu">
         <li><a onClick={() => this.handleSideBarOptionClick(0)} href="#Home">Home</a></li>
         <li><a onClick={() => this.handleSideBarOptionClick(1)} href="#About">About</a></li>
-        <li><a onClick={() => this.handleSideBarOptionClick(2)} href="#Services">Services</a></li>
+        {/*<li><a onClick={() => this.handleSideBarOptionClick(2)} href="#Services">Services</a></li>*/}
         <li><a onClick={() => this.handleSideBarOptionClick(3)} href="#Gallery">Gallery</a></li>
         <li><a onClick={() => this.handleSideBarOptionClick(4)} href="#Contact">Contact</a></li>
       </ul>
@@ -84,32 +87,11 @@ class App extends React.Component {
       <div class="sections">
         {this.renderViewComponent()}
       </div>
-      </div>
+       </SimpleReactLightbox>
+       </div>
   )
 }
 }
 
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;

@@ -1,0 +1,92 @@
+/*if u want to add slider*/
+/** {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 500px; should be the same height as the images
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  set the appearance of the slider:
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+*/
+
+.fav-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/dark_canon.png");
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.banner-text span {
+  font-size: 18px;
+}
+
+.fab-qoute {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.offset-md-2{
+  margin-left: 100px;
+}
+
+.qoute {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 0 20px;
+    color: #999;
+    font-weight: 400;
+}
+
+.fav-gallery {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  clear: both;
+  width: 100%;
+  display: block;
+}
+
+.img-hover:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+

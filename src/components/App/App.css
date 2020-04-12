@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     overflow-y: scroll;
-    z-index: 1001;
+    z-index: inherit;
     background: #000000;
 }
 
@@ -25,9 +25,6 @@ header {
   margin-bottom: 90px;
 }
 
-img {
-  height: 45px;
-}
 
 a h1 {
   font-size: 18px;
