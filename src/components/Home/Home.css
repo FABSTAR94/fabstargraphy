@@ -86,7 +86,7 @@
 }
 
 .img-hover:hover {
-  opacity: 0.3;
+  filter: brightness(50%);
   cursor: pointer;
 }
 

@@ -1,0 +1,14 @@
+.fav-gallery {
+  padding-top: 80px;
+  padding-bottom: 0px;
+  clear: both;
+  width: 100%;
+  display: block;
+}
+
+.fav-heading {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 5px;
+}

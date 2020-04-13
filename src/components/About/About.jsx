@@ -6,22 +6,23 @@ import signature from '../../assets/signature.png';
 class About extends React.Component {
   render(){
     return(
-      <div class="fab-about">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h2>About Me</h2>
+      <div className="fab-about">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12 text-center">
+            <span>Get to know me</span>
+              <h2 className="fav-heading">About Me</h2>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-12">
-              <img src={unnamed} class="img-fluid"alt="Faviola"/>
+          <div className="row">
+            <div className="col-md-12">
+              <img src={unnamed} className="img-fluid"alt="Faviola"/>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-            <span class="sec-header">Fabstargraphy</span>
+          <div className="row">
+            <div className="col-md-12">
+            <span className="sec-header">Fabstargraphy</span>
               <section>
                 <h3>Faviola Caballero</h3>
                   <p>quo. Solum putant luptatum an vel. Eu ignota dignissim
@@ -48,7 +49,7 @@ class About extends React.Component {
                       dissentiunt at.
                   </p>
                   <p>
-                  <img class="signature" src={signature} alt="Faviola signature"/>
+                  <img className="signature" src={signature} alt="Faviola signature"/>
                   </p>
               </section>
             </div>
