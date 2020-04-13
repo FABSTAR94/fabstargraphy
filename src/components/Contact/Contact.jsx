@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import Footer from '../App/Footer.jsx';
+// import Phonebooth from '../../assets/phone_booth.png';
 
 class Contact extends React.Component{
   render(){
@@ -12,6 +14,11 @@ class Contact extends React.Component{
              <h2 className="fav-heading">Contact Me</h2>
            </div>
           </div>
+            {/*<div className="row">
+            <div className="col-md-12">
+              <img src={Phonebooth} className="img-fluid"alt="Faviola"/>
+            </div>
+          </div>*/}
           <div className="row">
             <div className="col-md-6 mb-30">
               <h3 className="contact-heading">Contact Info</h3>
@@ -53,6 +60,7 @@ class Contact extends React.Component{
               </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

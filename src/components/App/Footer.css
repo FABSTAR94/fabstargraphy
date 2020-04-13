@@ -1,0 +1,14 @@
+.fav-footer h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.fav-footer span {
+  font-size: 12px;
+}
+
+.fav-footer p {
+  font-size: 10px;
+}

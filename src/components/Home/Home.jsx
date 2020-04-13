@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { SRLWrapper } from 'simple-react-lightbox';
+import Footer from '../App/Footer.jsx';
 import signature from '../../assets/signature.png';
 import cloudy from '../../assets/cloudy.png';
 import island from '../../assets/island.png';
@@ -173,6 +174,7 @@ class Home extends React.Component {
          </div>
         </div>
         </SRLWrapper>
+        <Footer/>
       </div>
 
 

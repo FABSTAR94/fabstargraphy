@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import unnamed from '../../assets/unnamed.png';
 import signature from '../../assets/signature.png';
+import Footer from '../App/Footer.jsx';
 
 class About extends React.Component {
   render(){
@@ -55,6 +56,7 @@ class About extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }
