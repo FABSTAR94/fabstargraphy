@@ -1,0 +1,26 @@
+.fav-card {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  opacity: 1;
+  height: auto;
+  padding: 80px;
+}
+
+.card-description h3 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.img-brightness {
+  filter: brightness(75%);
+}
