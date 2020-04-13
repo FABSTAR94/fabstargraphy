@@ -128,7 +128,7 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <div className="fab-qoute">
+        <div className="fav-qoute">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-8 offset-md-2 text-center">

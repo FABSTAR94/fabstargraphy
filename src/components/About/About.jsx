@@ -6,7 +6,7 @@ import signature from '../../assets/signature.png';
 class About extends React.Component {
   render(){
     return(
-      <div className="fab-about">
+      <div className="fav-about">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12 text-center">

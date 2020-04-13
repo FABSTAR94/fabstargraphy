@@ -1,0 +1,51 @@
+.fav-contact {
+  padding-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.contact-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+b {
+  color: #fff;
+}
+
+.phone-link a {
+  color: #999;
+}
+
+.phone-link a:hover {
+  color: #fff;
+}
+
+.form-control {
+  background: #1b1b1b;
+  border: none;
+  border-bottom: 1px solid #1b1b1b;
+  font-size: 12px;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding: 10px 15px;
+}
+
+#message {
+  height: 130px;
+  color: #999;
+}
+#message:focus {
+  color: #fff;
+}
+/*This is when you click on a specific form group on the form*/
+.form-control:focus {
+  border-color: none;
+  border-bottom: none;
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+}
