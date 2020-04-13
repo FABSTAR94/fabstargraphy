@@ -1,6 +1,7 @@
 import React from 'react';
 import './Gallery.css';
 import Card from './Card.jsx';
+import Footer from '../App/Footer.jsx';
 
 class Gallery extends React.Component {
   render(){
@@ -17,6 +18,7 @@ class Gallery extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

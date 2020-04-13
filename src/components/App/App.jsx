@@ -9,6 +9,7 @@ import Gallery from '../Gallery/Gallery.jsx';
 import Card from '../Gallery/Card.jsx';
 import island from '../../assets/island.png';
 import Contact from '../Contact/Contact.jsx';
+import Footer from './Footer.jsx';
 
 const SIDEBAR_OPTIONS = [
   'HOME',
