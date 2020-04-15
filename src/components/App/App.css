@@ -1,6 +1,7 @@
 body {
   background-color: #101010;
   color: white;
+  overflow-x:hidden;
 }
 
 .sections {
@@ -15,19 +16,19 @@ body {
     bottom: 0;
     top: 0;
     left: 0;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     z-index: inherit;
     background: #000000;
 }
 
 header {
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 150px;
 }
 
 
 a h1 {
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   text-align: center;
   font-weight: 50px;
@@ -36,7 +37,7 @@ a h1 {
 }
 
 span {
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #999;
     font-weight: 400;
@@ -55,14 +56,14 @@ ul {
 
 /*menu*/
 .side-menu li{
- border-bottom: 1px solid rgba(255,255,255,0.09);
+  border-bottom: 1px solid rgba(255,255,255,0.09);
   margin: 10px 0 0 0;
   padding: 0 0 10px 0;
 
 }
 
 .side-menu {
-  margin-bottom: 90px;
+  margin-bottom: 130px;
   padding: 0;
 
 }
@@ -70,7 +71,7 @@ ul {
 .side-menu a {
   line-height: 1.5em;
   color: #999;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .side-menu a:hover {
@@ -87,7 +88,7 @@ footer ul li{
 
 footer a {
   color: white;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 footer a:hover {
@@ -98,4 +99,5 @@ small {
   color: white;
   text-align: center;
   margin: 18px;
+  font-size: 13px;
 }

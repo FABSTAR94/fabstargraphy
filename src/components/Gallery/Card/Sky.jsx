@@ -46,8 +46,9 @@ class Sky extends React.Component{
          </div>
         </div>
         </SRLWrapper>
-
-        <button onClick={backAction}>Back</button>
+        <div class="btn-center">
+        <button class="back-btn"onClick={backAction}>Back</button>
+        </div>
           </div>
           </div>
           </div>

@@ -1,5 +1,5 @@
 .fav-contact {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 .mb-30 {
@@ -9,11 +9,15 @@
 .contact-heading {
   color: #fff;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
+}
+.contact-par {
+  font-size: 15px;
 }
 
 b {
   color: #fff;
+  font-size: 15px;
 }
 
 .phone-link a {
@@ -26,12 +30,14 @@ b {
 
 .form-control {
   background: #1b1b1b;
-  border: none;
-  border-bottom: 1px solid #1b1b1b;
-  font-size: 12px;
+  /*border: none;*/
+  /*border-bottom: 1px solid #1b1b1b;*/
+  font-size: 15px;
   line-height: 1.5em;
   font-weight: 400;
   padding: 10px 15px;
+  height: auto;
+  color: white;
 }
 
 #message {
@@ -43,9 +49,9 @@ b {
 }
 /*This is when you click on a specific form group on the form*/
 .form-control:focus {
-  border-color: none;
-  border-bottom: none;
+  border-color: #fff !important;
   box-shadow: none;
   background-color: black;
   color: #fff;
 }
+
