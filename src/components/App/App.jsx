@@ -65,7 +65,7 @@ class App extends React.Component {
       <SimpleReactLightbox>
       <section id="sidebar">
       <header>
-      <img className="logo" src={logo} height="45px"/>
+      <img className="logo" src={logo} height="55px"/>
       <a><h1>Faviola Caballero<br/><span>Fabstargraphy</span></h1></a>
       </header>
       <ul className="side-menu">

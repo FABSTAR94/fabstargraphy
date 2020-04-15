@@ -22,16 +22,16 @@ class Contact extends React.Component{
           <div className="row">
             <div className="col-md-6 mb-30">
               <h3 className="contact-heading">Contact Info</h3>
-              <p> Please do not contact me for photography sessions.
+              <p className="contact-par"> Please do not contact me for photography sessions.
               <br/> I created this website to just display my images.
               <br/> I am using this website as a project for web development.</p>
-              <p className="phone-link"><b>Phone:</b><a href="tel:+16502085816"> +1 650-208-5816</a></p>
-              <p><b>Email:</b> faviola.caballerog@gmail.com</p>
-              <p><b>Location:</b> Bay Area</p>
+              <p className="phone-link contact-par"><b>Phone:</b><a href="tel:+16502085816"> +1 650-208-5816</a></p>
+              <p className="contact-par"><b>Email:</b> faviola.caballerog@gmail.com</p>
+              <p className="contact-par"><b>Location:</b> Bay Area, CA</p>
             </div>
               <div className="col-md-6">
                 <h3 className="contact-heading">Contact Form</h3>
-                <p>Interested in working with me?</p>
+                <p className="contact-par">Interested in working with me?</p>
                 <form className="row">
                 <div className="col-sm-6">
                 <div className="form-group">
