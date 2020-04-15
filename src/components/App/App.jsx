@@ -2,14 +2,16 @@ import React from 'react';
 import SimpleReactLightbox from "simple-react-lightbox";
 import logo from '../../assets/logo.png';
 import './App.css';
+import Footer from './Footer.jsx';
 import About from '../About/About.jsx';
 import Home from '../Home/Home.jsx';
 import Services from '../Services/Services.jsx';
 import Gallery from '../Gallery/Gallery.jsx';
-import Card from '../Gallery/Card.jsx';
-import island from '../../assets/island.png';
+import Card from '../Gallery/Card/Card.jsx';
+import Sky from '../Gallery/Card/Sky.jsx';
+import Nature from '../Gallery/Card/Nature.jsx';
 import Contact from '../Contact/Contact.jsx';
-import Footer from './Footer.jsx';
+import island from '../../assets/island.png';
 
 const SIDEBAR_OPTIONS = [
   'HOME',
