@@ -11,7 +11,7 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
 }
 
 .sec-header{
@@ -21,6 +21,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   display: block;
+  padding-top: 30px;
 }
 
 section h3 {

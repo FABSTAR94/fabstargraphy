@@ -1,46 +1,54 @@
 import React from 'react';
 import './Gallery.css';
 import Footer from '../App/Footer.jsx';
-import mountains from '../../assets/mountains.png';
-import moon from '../../assets/moon.png';
 import Card from '././Card/Card.jsx';
 import Nature from '././Card/Nature.jsx';
 import Sky from '././Card/Sky.jsx';
+import Bw from '././Card/Bw.jsx';
+import Silhouette from '././Card/Silhouette.jsx';
+import Landscape from '././Card/Landscape.jsx';
+import Family from '././Card/Family.jsx';
+import gt from '../../assets/gt.png';
+import branches from '../../assets/branches.png';
+import hunter from '../../assets/hunter.png';
+import girlset from '../../assets/girlset.png';
+import yosemite3 from '../../assets/yosemite3.png';
+import ballons from '../../assets/ballons.png';
 
 const CARD_MAP = [
   {
-    title: 'Sky',
-    image: moon,
+    title: 'Landscape',
+    image: yosemite3,
   },
   {
     title: 'Nature',
-    image: mountains,
+    image: gt,
+  },
+  {
+    title: 'Black & White with Color',
+    image: hunter,
+  },
+  {
+    title: 'Silhouette',
+    image: girlset,
   },
   {
     title: 'Sky',
-    image: moon,
+    image: branches,
   },
   {
-    title: 'Nature',
-    image: mountains,
-  },
-  {
-    title: 'Sky',
-    image: moon,
-  },
-  {
-    title: 'Nature',
-    image: mountains,
+    title: 'Family',
+    image: ballons,
   }
 ]
 
 const CARD_OPTIONS = [
-  'SKY',
+  'Landscape',
   'NATURE',
-  'SKY',
-  'SKY',
-  'SKY',
-  'SKY',
+  'Bw',
+  'Silhouette',
+  'Sky',
+  'Family',
 ];
 
 class Gallery extends React.Component {
@@ -56,10 +64,10 @@ class Gallery extends React.Component {
     const { currentCard } = this.state;
 
     switch(currentCard) {
-      case 'SKY':
+      case 'Landscape':
         return (
          <div>
-          <Sky
+          <Landscape
             backAction={() => this.setState({ currentCard: undefined })}
            />
          </div>
@@ -68,6 +76,38 @@ class Gallery extends React.Component {
         return (
           <div>
             <Nature
+              backAction={() => this.setState({ currentCard: undefined })}
+            />
+         </div>
+        );
+        case 'Bw':
+        return (
+          <div>
+            <Bw
+              backAction={() => this.setState({ currentCard: undefined })}
+            />
+         </div>
+        );
+        case 'Silhouette':
+        return (
+          <div>
+            <Silhouette
+              backAction={() => this.setState({ currentCard: undefined })}
+            />
+         </div>
+        );
+         case 'Sky':
+        return (
+          <div>
+            <Sky
+              backAction={() => this.setState({ currentCard: undefined })}
+            />
+         </div>
+        );
+        case 'Family':
+        return (
+          <div>
+            <Family
               backAction={() => this.setState({ currentCard: undefined })}
             />
          </div>
@@ -100,9 +140,8 @@ class Gallery extends React.Component {
             <div className="col-md-12 text-center">
               <span>What I do</span>
                 <h2 className="fav-heading">Gallery</h2>
-                 <div className="row">
+
                   {this.renderCards()}
-                </div>
             </div>
           </div>
         </div>

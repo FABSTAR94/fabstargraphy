@@ -3,13 +3,21 @@ import './Home.css';
 import { SRLWrapper } from 'simple-react-lightbox';
 import Footer from '../App/Footer.jsx';
 import signature from '../../assets/signature.png';
-import cloudy from '../../assets/cloudy.png';
-import island from '../../assets/island.png';
-import moon from '../../assets/moon.png';
-import mountains from '../../assets/mountains.png';
-import purple from '../../assets/purple.png';
-import starry from '../../assets/starry.png';
-import water from '../../assets/water.png';
+import meditate from '../../assets/meditate.png';
+import gt from '../../assets/gt.png';
+import purp from '../../assets/purp.png';
+import lone from '../../assets/lone.png';
+import moonscene from '../../assets/moonscene.png';
+import nillaselfie from '../../assets/nillaselfie.png';
+import converse from '../../assets/converse.png';
+import boots from '../../assets/boots.png';
+import ybw from '../../assets/ybw.png';
+import boat from '../../assets/boat.png';
+import greenpath from '../../assets/greenpath.png';
+import moon1 from '../../assets/moon1.png';
+import greenblue from '../../assets/greenblue.png';
+import steps from '../../assets/steps.png';
+import northernlights from '../../assets/northernlights.png';
 
 class Home extends React.Component {
   //if u want to add slider this is the js for it.
@@ -151,24 +159,27 @@ class Home extends React.Component {
         <SRLWrapper>
         <div className="fav-gallery">
         <div className="container-fluid">
-         <div className="row">
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={island} className="img-fluid img-hover" alt=""/>
+         <div className="gallery-row">
+         <div className="gallery-column">
+         <img src={ybw} className="img-fluid img-hover" alt=""/>
+         <img src={boat} className="img-fluid img-hover" alt=""/>
+         <img src={moon1} className="img-fluid img-hover" alt=""/>
+         <img src={greenblue} className="img-fluid img-hover" alt=""/>
+         <img src={moonscene} className="img-fluid img-hover" alt=""/>
+         <img src={meditate} className="img-fluid img-hover" alt=""/>
          </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={starry} className="img-fluid img-hover" alt=""/>
+         <div className="gallery-column">
+         <img src={purp} className="img-fluid img-hover" alt=""/>
+         <img src={lone} className="img-fluid img-hover" alt=""/>
+         <img src={gt} className="img-fluid img-hover" alt=""/>
+         <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
+         <img src={northernlights} className="img-fluid img-hover" alt=""/>
          </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={island} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={purple} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={starry} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={purple} className="img-fluid img-hover" alt=""/>
+         <div className="gallery-column">
+         <img src={converse} className="img-fluid img-hover" alt=""/>
+         <img src={boots} className="img-fluid img-hover" alt=""/>
+         <img src={greenpath} className="img-fluid img-hover" alt=""/>
+         <img src={steps} className="img-fluid img-hover" alt=""/>
          </div>
          </div>
          </div>

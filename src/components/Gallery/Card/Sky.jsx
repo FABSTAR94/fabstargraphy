@@ -1,13 +1,14 @@
 import React from 'react';
-import './Sky.css';
+import './Button.css';
 import { SRLWrapper } from 'simple-react-lightbox';
-import cloudy from '../../../assets/cloudy.png';
-import island from '../../../assets/island.png';
-import moon from '../../../assets/moon.png';
-import mountains from '../../../assets/mountains.png';
-import purple from '../../../assets/purple.png';
-import starry from '../../../assets/starry.png';
-import water from '../../../assets/water.png';
+import rainbow from '../../../assets/rainbow.png';
+import moonscene from '../../../assets/moonscene.png';
+import branches from '../../../assets/branches.png';
+import moon1 from '../../../assets/moon1.png';
+import moon2 from '../../../assets/moon2.png';
+import fullmoon from '../../../assets/fullmoon.png';
+import bird from '../../../assets/bird.png';
+import fly from '../../../assets/fly.png';
 
 class Sky extends React.Component{
   render(){
@@ -16,42 +17,38 @@ class Sky extends React.Component{
       <div className="fav-selection">
         <div className="container-fluid">
           <div className="row">
-           <div className="col-md-12 text-center">
-             <span>Gallery</span>
-             <h2 className="fav-heading">Sky</h2>
-           </div>
+            <div className="col-md-12 text-center">
+              <span>Gallery</span>
+              <h2 className="fav-heading">Sky</h2>
+            </div>
             <SRLWrapper>
-        <div className="fav-gallery">
-        <div className="container-fluid">
-         <div className="row">
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={island} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={starry} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={island} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={purple} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={starry} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="col-4 col-md-4 col-lg-4">
-         <img src={purple} className="img-fluid img-hover" alt=""/>
-         </div>
-         </div>
-         </div>
+              <div className="fav-gallery">
+                <div className="container-fluid">
+                  <div className="gallery-row">
+                    <div className="gallery-column">
+                      <img src={rainbow} className="img-fluid img-hover" alt=""/>
+                      <img src={branches} className="img-fluid img-hover" alt=""/>
+                      <img src={fly} className="img-fluid img-hover" alt=""/>
+                    </div>
+                     <div className="gallery-column">
+                      <img src={moon1} className="img-fluid img-hover" alt=""/>
+                      <img src={moonscene} className="img-fluid img-hover" alt=""/>
+                      <img src={moon2} className="img-fluid img-hover" alt=""/>
+                    </div>
+                     <div className="gallery-column">
+                      <img src={fullmoon} className="img-fluid img-hover" alt=""/>
+                      <img src={bird} className="img-fluid img-hover" alt=""/>
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </SRLWrapper>
+            <div class="btn-center">
+              <button class="back-btn"onClick={backAction}>Back</button>
+            </div>
+          </div>
         </div>
-        </SRLWrapper>
-        <div class="btn-center">
-        <button class="back-btn"onClick={backAction}>Back</button>
-        </div>
-          </div>
-          </div>
-          </div>
+      </div>
     )
   }
 }
