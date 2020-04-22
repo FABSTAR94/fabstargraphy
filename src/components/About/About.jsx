@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import unnamed from '../../assets/unnamed.png';
+import flowers from '../../assets/flowers.png';
 import signature from '../../assets/signature.png';
 import Footer from '../App/Footer.jsx';
 
@@ -18,7 +18,7 @@ class About extends React.Component {
 
           <div className="row">
             <div className="col-md-12">
-              <img src={unnamed} className="img-fluid"alt="Faviola"/>
+              <img src={flowers} className="img-fluid"alt="Faviola"/>
             </div>
           </div>
           <div className="row">

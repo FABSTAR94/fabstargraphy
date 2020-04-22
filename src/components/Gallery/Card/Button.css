@@ -1,0 +1,21 @@
+.fav-selection{
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.back-btn {
+  padding: 8px 29px;
+  background-color: #101010;;
+  color: #fff;
+}
+
+.back-btn:hover {
+  background-color: #000000;
+
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
