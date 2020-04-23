@@ -25,7 +25,7 @@ const CARD_MAP = [
     image: gt,
   },
   {
-    title: 'Black & White with Color',
+    title: 'Black & White',
     image: hunter,
   },
   {

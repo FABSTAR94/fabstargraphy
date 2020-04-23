@@ -18,6 +18,7 @@ import yosemite3 from '../../../assets/yosemite3.png';
 import edgeclose from '../../../assets/edgeclose.png';
 import edgefar from '../../../assets/edgefar.png';
 import jadecove from '../../../assets/jadecove.png';
+import beachset from '../../../assets/beachset.png';
 
 class Landscape extends React.Component{
   render(){
@@ -54,6 +55,7 @@ class Landscape extends React.Component{
                     <div className="gallery-column">
                       <img src={boat} className="img-fluid img-hover" alt=""/>
                       <img src={mtns} className="img-fluid img-hover" alt=""/>
+                      <img src={beachset} className="img-fluid img-hover" alt=""/>
                       <img src={snowmtns} className="img-fluid img-hover" alt=""/>
                       <img src={fall} className="img-fluid img-hover" alt=""/>
                       <img src={yosemite1} className="img-fluid img-hover" alt=""/>
