@@ -27,7 +27,7 @@ class Contact extends React.Component{
               <br/> I am using this website as a project for web development.</p>
               <p className="phone-link contact-par"><b>Phone:</b><a href="tel:+16502085816"> +1 650-208-5816</a></p>
               <p className="contact-par"><b>Email:</b> faviola.caballerog@gmail.com</p>
-              <p className="contact-par"><b>Location:</b> Bay Area, CA</p>
+              <p className="contact-par"><b>Location:</b> San Francisco Bay Area, CA</p>
             </div>
               <div className="col-md-6">
                 <h3 className="contact-heading">Contact Form</h3>
