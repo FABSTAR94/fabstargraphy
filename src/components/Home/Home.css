@@ -89,6 +89,31 @@
   .img-hover:hover {
     filter: brightness(100%) !important;
   }
+  .offset-md-2{
+    margin-left: 15px;
+  }
+  footer {
+    text-align: center;
+  }
+  small {
+    padding-left: 25px;
+
+  }
+  .side-menu a{
+    font-size: 20px;
+  }
+  section h3{
+    padding-bottom: 10px;
+  }
+  .signature{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .phone{
+    width: 100% !important;
+  }
 }
 
 .img-hover:hover {
