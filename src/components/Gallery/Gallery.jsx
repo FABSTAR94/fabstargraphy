@@ -3,7 +3,7 @@ import './Gallery.css';
 import Footer from '../App/Footer.jsx';
 import Card from '././Card/Card.jsx';
 import Nature from '././Card/Nature.jsx';
-import Sky from '././Card/Sky.jsx';
+import Travel from '././Card/Travel.jsx';
 import Bw from '././Card/Bw.jsx';
 import Silhouette from '././Card/Silhouette.jsx';
 import Landscape from '././Card/Landscape.jsx';
@@ -14,7 +14,7 @@ import hunter from '../../assets/hunter.png';
 import girlset from '../../assets/girlset.png';
 import yosemite3 from '../../assets/yosemite3.png';
 import ballons from '../../assets/ballons.png';
-
+import eiffeltower from '../../assets/eiffeltower.jpeg';
 const CARD_MAP = [
   {
     title: 'Landscape',
@@ -33,8 +33,8 @@ const CARD_MAP = [
     image: girlset,
   },
   {
-    title: 'Sky',
-    image: branches,
+    title: 'Travel',
+    image: eiffeltower,
   },
   {
     title: 'Family',
@@ -47,7 +47,7 @@ const CARD_OPTIONS = [
   'NATURE',
   'Bw',
   'Silhouette',
-  'Sky',
+  'Travel',
   'Family',
 ];
 
@@ -96,10 +96,10 @@ class Gallery extends React.Component {
             />
          </div>
         );
-         case 'Sky':
+         case 'Travel':
         return (
           <div>
-            <Sky
+            <Travel
               backAction={() => this.setState({ currentCard: undefined })}
             />
          </div>

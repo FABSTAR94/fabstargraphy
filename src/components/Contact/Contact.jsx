@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 import Footer from '../App/Footer.jsx';
 import styled from 'styled-components';
-// import Phonebooth from '../../assets/phone_booth.png';
+import telephone from '../../assets/telephone.jpeg';
 
 // email from https://postmail.invotes.com
 const FormId = "javascript_form";
@@ -135,11 +135,11 @@ toParams(dataJs) {
              <h2 className="fav-heading">Contact Me</h2>
            </div>
           </div>
-            {/*<div className="row">
+            <div className="row">
             <div className="col-md-12">
-              <img src={Phonebooth} className="img-fluid"alt="Faviola"/>
+              <img src={telephone} className="img-fluid phone"alt="Faviola"/>
             </div>
-          </div>*/}
+          </div>
           <div className="row">
             <div className="col-md-6 mb-30">
               <h3 className="contact-heading">Contact Info</h3>
@@ -150,7 +150,7 @@ toParams(dataJs) {
               <p className="contact-par"><b>Email:</b> faviola.caballerog@gmail.com</p>
               <p className="contact-par"><b>Location:</b> San Francisco Bay Area, CA</p>
             </div>
-              <div className="col-md-6">
+              <div className="col-md-6 mb-30">
                 <h3 className="contact-heading">Contact Form</h3>
                 <p className="contact-par">Interested in working with me?</p>
                 <form className="row">
