@@ -12,3 +12,24 @@
 .fav-footer p {
   font-size: 15px;
 }
+
+@media screen and (max-width: 375px) {
+  header {
+    margin-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    margin-bottom: 65px;
+  }
+  .side-menu {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offset-md-2 {
+    margin-left: 0px !important;
+  }
+}
