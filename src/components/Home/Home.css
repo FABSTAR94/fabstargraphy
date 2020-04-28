@@ -85,7 +85,7 @@
   display: block;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .img-hover:hover {
     filter: brightness(100%) !important;
   }
