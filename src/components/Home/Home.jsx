@@ -157,7 +157,7 @@ class Home extends React.Component {
   }
 
   render(){
-    const isMobile = window.innerWidth <= 425 ? true : false;
+    const isMobile = window.innerWidth <= 500 ? true : false;
     return(
       <div>
         <div className="fab-home">
