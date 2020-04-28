@@ -7,18 +7,9 @@ import love from '../../../assets/love.png';
 import me from '../../../assets/me.png';
 
 class Silhouette extends React.Component{
-  render(){
-    const { backAction } = this.props;
+  renderImages() {
     return(
-      <div className="fav-selection">
-        <div className="container-fluid">
-          <div className="row">
-           <div className="col-md-12 text-center">
-             <span>Gallery</span>
-             <h2 className="fav-heading">Silhouette</h2>
-           </div>
-            <SRLWrapper>
-        <div className="fav-gallery">
+      <div className="fav-gallery">
           <div className="container-fluid">
             <div className="gallery-row">
               <div className="gallery-column">
@@ -36,7 +27,22 @@ class Silhouette extends React.Component{
             </div>
           </div>
         </div>
-          </SRLWrapper>
+    )
+  }
+  render(){
+    const isMobile = window.innerWidth <= 425 ? true : false;
+    const { backAction } = this.props;
+    return(
+      <div className="fav-selection">
+        <div className="container-fluid">
+          <div className="row">
+           <div className="col-md-12 text-center">
+             <span>Gallery</span>
+             <h2 className="fav-heading">Silhouette</h2>
+           </div>
+            {isMobile ?
+              <div>{this.renderImages()}</div>
+              : <SRLWrapper>{this.renderImages()}</SRLWrapper>}
          <div class="btn-center">
         <button class="back-btn"onClick={backAction}>Back</button>
         </div>

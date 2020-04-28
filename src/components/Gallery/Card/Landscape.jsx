@@ -19,9 +19,53 @@ import edgeclose from '../../../assets/edgeclose.png';
 import edgefar from '../../../assets/edgefar.png';
 import jadecove from '../../../assets/jadecove.png';
 import beachset from '../../../assets/beachset.png';
+import waterfall from '../../../assets/waterfall.jpeg';
+import rainbow from '../../../assets/rainbow.png';
+import moonscene from '../../../assets/moonscene.png';
+import branches from '../../../assets/branches.png';
 
 class Landscape extends React.Component{
+  renderImages() {
+    return (
+      <div className="fav-gallery">
+        <div className="container-fluid">
+           <div className="gallery-row">
+            <div className="gallery-column">
+              <img src={ybw} className="img-fluid img-hover" alt=""/>
+              <img src={lake} className="img-fluid img-hover" alt=""/>
+              <img src={branches} className="img-fluid img-hover" alt=""/>
+              <img src={meditate} className="img-fluid img-hover" alt=""/>
+              <img src={edgeclose} className="img-fluid img-hover" alt=""/>
+              <img src={landset} className="img-fluid img-hover" alt=""/>
+              <img src={yosemite2} className="img-fluid img-hover" alt=""/>
+              <img src={rainbow} className="img-fluid img-hover" alt=""/>
+            </div>
+            <div className="gallery-column">
+              <img src={waterfall} className="img-fluid img-hover" alt=""/>
+               <img src={beachset} className="img-fluid img-hover" alt=""/>
+              <img src={yosemite3} className="img-fluid img-hover" alt=""/>
+              <img src={couple} className="img-fluid img-hover" alt=""/>
+              <img src={fannette} className="img-fluid img-hover" alt=""/>
+              <img src={blue} className="img-fluid img-hover" alt=""/>
+            </div>
+            <div className="gallery-column">
+              <img src={boat} className="img-fluid img-hover" alt=""/>
+              <img src={mtns} className="img-fluid img-hover" alt=""/>
+              <img src={moonscene} className="img-fluid img-hover" alt=""/>
+              <img src={snowmtns} className="img-fluid img-hover" alt=""/>
+              <img src={fall} className="img-fluid img-hover" alt=""/>
+              <img src={yosemite1} className="img-fluid img-hover" alt=""/>
+              <img src={jadecove} className="img-fluid img-hover" alt=""/>
+              <img src={edgefar} className="img-fluid img-hover" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   render(){
+    const isMobile = window.innerWidth <= 425 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">
@@ -31,41 +75,9 @@ class Landscape extends React.Component{
              <span>Gallery</span>
              <h2 className="fav-heading">Landscape</h2>
            </div>
-            <SRLWrapper>
-              <div className="fav-gallery">
-                <div className="container-fluid">
-                   <div className="gallery-row">
-                    <div className="gallery-column">
-                      <img src={ybw} className="img-fluid img-hover" alt=""/>
-                      <img src={lake} className="img-fluid img-hover" alt=""/>
-                      <img src={meditate} className="img-fluid img-hover" alt=""/>
-                      <img src={edgeclose} className="img-fluid img-hover" alt=""/>
-                      <img src={landset} className="img-fluid img-hover" alt=""/>
-                      <img src={yosemite2} className="img-fluid img-hover" alt=""/>
-                    </div>
-
-                    <div className="gallery-column">
-                      <img src={yosemite3} className="img-fluid img-hover" alt=""/>
-                      <img src={couple} className="img-fluid img-hover" alt=""/>
-                      <img src={fannette} className="img-fluid img-hover" alt=""/>
-                      <img src={blue} className="img-fluid img-hover" alt=""/>
-                     <img src={edgefar} className="img-fluid img-hover" alt=""/>
-                    </div>
-
-                    <div className="gallery-column">
-                      <img src={boat} className="img-fluid img-hover" alt=""/>
-                      <img src={mtns} className="img-fluid img-hover" alt=""/>
-                      <img src={beachset} className="img-fluid img-hover" alt=""/>
-                      <img src={snowmtns} className="img-fluid img-hover" alt=""/>
-                      <img src={fall} className="img-fluid img-hover" alt=""/>
-                      <img src={yosemite1} className="img-fluid img-hover" alt=""/>
-                      <img src={jadecove} className="img-fluid img-hover" alt=""/>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SRLWrapper>
-
+            {isMobile ?
+              <div>{this.renderImages()}</div>
+              : <SRLWrapper>{this.renderImages()}</SRLWrapper>}
               <div class="btn-center">
                 <button class="back-btn"onClick={backAction}>Back</button>
              </div>

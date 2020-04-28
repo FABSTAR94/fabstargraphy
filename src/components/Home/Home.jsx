@@ -124,8 +124,40 @@ class Home extends React.Component {
   //     popupPicture: picture
   //   });
   //  }
+  renderImages() {
+    return(
+      <div className="fav-gallery">
+        <div className="container-fluid">
+         <div className="gallery-row">
+         <div className="gallery-column">
+         <img src={ybw} className="img-fluid img-hover" alt=""/>
+         <img src={boat} className="img-fluid img-hover" alt=""/>
+         <img src={moon1} className="img-fluid img-hover" alt=""/>
+         <img src={greenblue} className="img-fluid img-hover" alt=""/>
+         <img src={moonscene} className="img-fluid img-hover" alt=""/>
+         <img src={meditate} className="img-fluid img-hover" alt=""/>
+         </div>
+         <div className="gallery-column">
+         <img src={purp} className="img-fluid img-hover" alt=""/>
+         <img src={lone} className="img-fluid img-hover" alt=""/>
+         <img src={gt} className="img-fluid img-hover" alt=""/>
+         <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
+         <img src={northernlights} className="img-fluid img-hover" alt=""/>
+         </div>
+         <div className="gallery-column">
+         <img src={converse} className="img-fluid img-hover" alt=""/>
+         <img src={boots} className="img-fluid img-hover" alt=""/>
+         <img src={greenpath} className="img-fluid img-hover" alt=""/>
+         <img src={steps} className="img-fluid img-hover" alt=""/>
+         </div>
+         </div>
+         </div>
+        </div>
+    )
+  }
 
   render(){
+    const isMobile = window.innerWidth <= 425 ? true : false;
     return(
       <div>
         <div className="fab-home">
@@ -154,37 +186,9 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-
-
-        <SRLWrapper>
-        <div className="fav-gallery">
-        <div className="container-fluid">
-         <div className="gallery-row">
-         <div className="gallery-column">
-         <img src={ybw} className="img-fluid img-hover" alt=""/>
-         <img src={boat} className="img-fluid img-hover" alt=""/>
-         <img src={moon1} className="img-fluid img-hover" alt=""/>
-         <img src={greenblue} className="img-fluid img-hover" alt=""/>
-         <img src={moonscene} className="img-fluid img-hover" alt=""/>
-         <img src={meditate} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="gallery-column">
-         <img src={purp} className="img-fluid img-hover" alt=""/>
-         <img src={lone} className="img-fluid img-hover" alt=""/>
-         <img src={gt} className="img-fluid img-hover" alt=""/>
-         <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
-         <img src={northernlights} className="img-fluid img-hover" alt=""/>
-         </div>
-         <div className="gallery-column">
-         <img src={converse} className="img-fluid img-hover" alt=""/>
-         <img src={boots} className="img-fluid img-hover" alt=""/>
-         <img src={greenpath} className="img-fluid img-hover" alt=""/>
-         <img src={steps} className="img-fluid img-hover" alt=""/>
-         </div>
-         </div>
-         </div>
-        </div>
-        </SRLWrapper>
+           {isMobile ?
+              <div>{this.renderImages()}</div>
+              : <SRLWrapper>{this.renderImages()}</SRLWrapper>}
         <Footer/>
       </div>
 

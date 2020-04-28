@@ -1,5 +1,6 @@
 import React from 'react';
 import SimpleReactLightbox from "simple-react-lightbox";
+import styled from 'styled-components';
 import logo from '../../assets/logo.png';
 import './App.css';
 import Footer from './Footer.jsx';
@@ -8,10 +9,11 @@ import Home from '../Home/Home.jsx';
 import Services from '../Services/Services.jsx';
 import Gallery from '../Gallery/Gallery.jsx';
 import Card from '../Gallery/Card/Card.jsx';
-import Sky from '../Gallery/Card/Sky.jsx';
+import Travel from '../Gallery/Card/Travel.jsx';
 import Nature from '../Gallery/Card/Nature.jsx';
 import Contact from '../Contact/Contact.jsx';
 import island from '../../assets/island.png';
+import menu from '../../assets/menu.png';
 
 const SIDEBAR_OPTIONS = [
   'HOME',
@@ -24,10 +26,14 @@ const SIDEBAR_OPTIONS = [
 class App extends React.Component {
   state = {
     currentComponent: 'HOME',
+    showMobileSideBar: false,
   }
 
   handleSideBarOptionClick(idx) {
-    this.setState({ currentComponent: SIDEBAR_OPTIONS[idx] })
+    this.setState({
+      currentComponent: SIDEBAR_OPTIONS[idx],
+      showMobileSideBar: false
+    });
   }
 
   renderViewComponent() {
@@ -59,11 +65,54 @@ class App extends React.Component {
     }
   }
 
+  shouldShowSideBar(isMobile) {
+    if (isMobile) {
+      return this.state.showMobileSideBar;
+    }
+    return true;
+  }
+
+  calculateSideBarWidth(isMobile) {
+    if (isMobile) {
+      if (this.state.showMobileSideBar) {
+        return '100%';
+      }
+      return '0%';
+    }
+    return '23%';
+  }
+
+  calculateViewComponentWidth(isMobile) {
+    if (isMobile) {
+      if (this.state.showMobileSideBar) {
+        return '0%';
+      }
+      return '100%';
+    }
+    return '77%';
+  }
+
   render(){
+    const { showMobileSideBar } = this.state;
+    const isMobile = window.innerWidth <= 425 ? true : false;
+    const showSideBar = this.shouldShowSideBar(isMobile);
+    const sideBarWidth = this.calculateSideBarWidth(isMobile);
+    const viewComponentWidth = this.calculateViewComponentWidth(isMobile);
+
     return(
       <div>
       <SimpleReactLightbox>
-      <section id="sidebar">
+      {isMobile &&
+        (showMobileSideBar ?
+          <div className="close-Img" onClick={() => this.setState({ showMobileSideBar: !showMobileSideBar })}>x</div>
+          : <div className="hamburger-Img" onClick={() => this.setState({ showMobileSideBar: !showMobileSideBar })}></div>
+        )
+      }
+
+      <SideBar
+        sideBarWidth={sideBarWidth}
+        showSideBar={showSideBar}
+      >
       <header>
       <img className="logo" src={logo} height="55px"/>
       <a><h1>Faviola Caballero<br/><span>Fabstargraphy</span></h1></a>
@@ -86,16 +135,39 @@ class App extends React.Component {
       </ul>
       <small>ⓒ2020 Fabstargraphy</small>
       </footer>
-      </section>
+      </SideBar>
 
-      <div className="sections">
-        {this.renderViewComponent()}
-      </div>
+      {!showMobileSideBar &&
+        <ViewComponent
+          isMobile={isMobile}
+          viewComponentWidth={viewComponentWidth}
+         >
+          {this.renderViewComponent()}
+        </ViewComponent>
+      }
        </SimpleReactLightbox>
        </div>
   )
 }
 }
 
-
 export default App;
+
+const ViewComponent = styled.div`
+  width: ${props => props.viewComponentWidth};
+  float: ${props => props.isMobile ? '' : 'right'};
+`;
+
+const SideBar = styled.div`
+  padding: 30px;
+  width: ${props => props.sideBarWidth};
+  visibility: ${props => props.showSideBar ? 'visible' : 'hidden'};
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: inherit;
+  background: #000000;
+  transition-timing-function: ease-in;
+  transition: width 0.2s;
+`;
