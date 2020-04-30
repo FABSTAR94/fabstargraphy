@@ -21,6 +21,7 @@ import cemetery from '../../../assets/cemetery.jpeg';
 import umbrellas from '../../../assets/umbrellas.jpeg';
 import motorcycle from '../../../assets/motorcycle.jpeg';
 import caminito from '../../../assets/caminito.jpeg';
+import versailles from '../../../assets/versailles.jpeg';
 
 class Travel extends React.Component{
   renderImages() {
@@ -43,6 +44,7 @@ class Travel extends React.Component{
                       <img src={toplonbridge} className="img-fluid img-hover" alt=""/>
                       <img src={motorcycle} className="img-fluid img-hover" alt=""/>
                       <img src={eiffeltower} className="img-fluid img-hover" alt=""/>
+                      <img src={versailles} className="img-fluid img-hover" alt=""/>
                     </div>
                      <div className="gallery-column">
                       <img src={boys} className="img-fluid img-hover" alt=""/>

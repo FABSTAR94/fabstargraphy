@@ -143,9 +143,10 @@ toParams(dataJs) {
           <div className="row">
             <div className="col-md-6 mb-30">
               <h3 className="contact-heading">Contact Info</h3>
-              <p className="contact-par"> Please do not contact me for photography sessions.
-              <br/> I created this website to just display my images.
-              <br/> I am using this website as a project for web development.</p>
+              <p className="contact-par">I created this website for myself to display my images.
+              <br/> I am using this website as a project for Web Development.
+              <br/> All pictures were taken with Canon EOS Rebel T6 & with Android Galaxy Smartphones.
+              </p>
               <p className="phone-link contact-par"><b>Phone:</b><a href="tel:+16502085816"> +1 650-208-5816</a></p>
               <p className="contact-par"><b>Email:</b> faviola.caballerog@gmail.com</p>
               <p className="contact-par"><b>Location:</b> San Francisco Bay Area, CA</p>
