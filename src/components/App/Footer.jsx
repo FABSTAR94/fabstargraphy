@@ -4,8 +4,8 @@ import './Footer.css';
 class Footer extends React.Component {
   render(){
     return(
-    <div className="fav-footer">
     <div className="row">
+    <div className="fav-footer">
     <div className="col-md-12 text-center">
     <h1>Faviola Caballero<br/><span>Fabstargraphy</span>
     </h1>

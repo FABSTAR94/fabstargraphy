@@ -182,13 +182,9 @@ class Home extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-8 offset-md-2 text-center">
-               <p className="qoute">"As I discovered new scenes I realized there's
-               so much beauty to life than just four bedroom walls. Becoming
-               intrigued with all the peculiarity and beauty of each venture,
-               I wanted those moments to last so I decided to capture them.
-               And that was when I became interested in photography.
-               Having the freedom to capture anything I want and applying my own
-               creativity to make it even more beautiful."
+               <p className="qoute">"
+               You can't go back in time to relive a moment, but you can
+               capture that moment. And with that moment...you become the creator of your own world."
                </p>
                <img className="signature" src={signature} alt="Faviola signature"/>
               </div>
