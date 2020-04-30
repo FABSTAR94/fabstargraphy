@@ -94,7 +94,7 @@ class App extends React.Component {
 
   render(){
     const { showMobileSideBar } = this.state;
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const showSideBar = this.shouldShowSideBar(isMobile);
     const sideBarWidth = this.calculateSideBarWidth(isMobile);
     const viewComponentWidth = this.calculateViewComponentWidth(isMobile);

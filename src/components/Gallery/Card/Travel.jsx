@@ -15,6 +15,12 @@ import painting from '../../../assets/painting.jpeg';
 import telephone from '../../../assets/telephone.jpeg';
 import boys from '../../../assets/boys.jpeg';
 import fly from '../../../assets/fly.png';
+import lonbridge from '../../../assets/lonbridge.jpeg';
+import elateneo from '../../../assets/elateneo.jpeg';
+import cemetery from '../../../assets/cemetery.jpeg';
+import umbrellas from '../../../assets/umbrellas.jpeg';
+import motorcycle from '../../../assets/motorcycle.jpeg';
+import caminito from '../../../assets/caminito.jpeg';
 
 class Travel extends React.Component{
   renderImages() {
@@ -23,23 +29,27 @@ class Travel extends React.Component{
                 <div className="container-fluid">
                   <div className="gallery-row">
                     <div className="gallery-column">
+                      <img src={vintageparis} className="img-fluid img-hover" alt=""/>
                       <img src={hpgarden} className="img-fluid img-hover" alt=""/>
+                      <img src={umbrellas} className="img-fluid img-hover" alt=""/>
                       <img src={buildings} className="img-fluid img-hover" alt=""/>
-                      <img src={eiffeltower} className="img-fluid img-hover" alt=""/>
-                      <img src={hp} className="img-fluid img-hover" alt=""/>
+                      <img src={elateneo} className="img-fluid img-hover" alt=""/>
+                      <img src={hpbuilding} className="img-fluid img-hover" alt=""/>
+                      <img src={caminito} className="img-fluid img-hover" alt=""/>
                     </div>
                      <div className="gallery-column">
                       <img src={oldlady} className="img-fluid img-hover" alt=""/>
-                      <img src={telephone} className="img-fluid img-hover" alt=""/>
+                       <img src={sola} className="img-fluid img-hover" alt=""/>
                       <img src={toplonbridge} className="img-fluid img-hover" alt=""/>
-                      <img src={sola} className="img-fluid img-hover" alt=""/>
-                      <img src={vintageparis} className="img-fluid img-hover" alt=""/>
+                      <img src={motorcycle} className="img-fluid img-hover" alt=""/>
+                      <img src={eiffeltower} className="img-fluid img-hover" alt=""/>
                     </div>
                      <div className="gallery-column">
                       <img src={boys} className="img-fluid img-hover" alt=""/>
+                      <img src={cemetery} className="img-fluid img-hover" alt=""/>
                       <img src={blackbackground} className="img-fluid img-hover" alt=""/>
+                      <img src={lonbridge} className="img-fluid img-hover" alt=""/>
                       <img src={painting} className="img-fluid img-hover" alt=""/>
-                      <img src={hpbuilding} className="img-fluid img-hover" alt=""/>
                     </div>
                   </div>
                 </div>
@@ -47,7 +57,7 @@ class Travel extends React.Component{
     )
   }
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">

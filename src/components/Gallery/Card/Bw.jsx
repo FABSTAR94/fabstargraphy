@@ -15,6 +15,7 @@ import fly from '../../../assets/fly.png';
 import moon1 from '../../../assets/moon1.png';
 import moon2 from '../../../assets/moon2.png';
 import fullmoon from '../../../assets/fullmoon.png';
+import grave from '../../../assets/grave.jpeg';
 
 class Bw extends React.Component {
   renderImages() {
@@ -26,7 +27,7 @@ class Bw extends React.Component {
          <div className="gallery-column">
          <img src={boots} className="img-fluid img-hover" alt=""/>
          <img src={lux} className="img-fluid img-hover" alt=""/>
-         <img src={ridinghood} className="img-fluid img-hover" alt=""/>
+         <img src={fairy} className="img-fluid img-hover" alt=""/>
          <img src={red} className="img-fluid img-hover" alt=""/>
          <img src={fullmoon} className="img-fluid img-hover" alt=""/>
          </div>
@@ -35,12 +36,13 @@ class Bw extends React.Component {
          <img src={purp} className="img-fluid img-hover" alt=""/>
          <img src={palmtrees} className="img-fluid img-hover" alt=""/>
          <img src={moon1} className="img-fluid img-hover" alt=""/>
+         <img src={grave} className="img-fluid img-hover" alt=""/>
          </div>
 
          <div className="gallery-column">
          <img src={converse} className="img-fluid img-hover" alt=""/>
          <img src={hunter} className="img-fluid img-hover" alt=""/>
-         <img src={fairy} className="img-fluid img-hover" alt=""/>
+         <img src={ridinghood} className="img-fluid img-hover" alt=""/>
          <img src={head} className="img-fluid img-hover" alt=""/>
          <img src={moon2} className="img-fluid img-hover" alt=""/>
          </div>
@@ -52,7 +54,7 @@ class Bw extends React.Component {
   }
 
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">
