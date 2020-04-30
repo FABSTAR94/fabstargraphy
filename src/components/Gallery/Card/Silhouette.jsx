@@ -30,7 +30,7 @@ class Silhouette extends React.Component{
     )
   }
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">

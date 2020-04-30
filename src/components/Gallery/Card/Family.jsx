@@ -4,7 +4,6 @@ import './Button.css';
 import ballons from '../../../assets/ballons.png';
 import nillaflowers from '../../../assets/nillaflowers.png';
 import nillaselfie from '../../../assets/nillaselfie.png';
-import smile from '../../../assets/smile.png';
 import two from '../../../assets/two.png';
 import sebash from '../../../assets/sebash.png';
 import daisy from '../../../assets/daisy.png';
@@ -29,14 +28,13 @@ class Family extends React.Component {
          <div className="gallery-column">
          <img src={eli} className="img-fluid img-hover" alt=""/>
          <img src={bash} className="img-fluid img-hover" alt=""/>
-         <img src={nillaflowers} className="img-fluid img-hover" alt=""/>
-         <img src={smile} className="img-fluid img-hover" alt=""/>
+         <img src={two} className="img-fluid img-hover" alt=""/>
          </div>
 
          <div className="gallery-column">
          <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
          <img src={trust} className="img-fluid img-hover" alt=""/>
-         <img src={two} className="img-fluid img-hover" alt=""/>
+          <img src={nillaflowers} className="img-fluid img-hover" alt=""/>
          </div>
 
          </div>
@@ -45,7 +43,7 @@ class Family extends React.Component {
     )
   }
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">

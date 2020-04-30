@@ -18,6 +18,11 @@ import moon1 from '../../assets/moon1.png';
 import greenblue from '../../assets/greenblue.png';
 import steps from '../../assets/steps.png';
 import northernlights from '../../assets/northernlights.png';
+import waterfall from '../../assets/waterfall.jpeg';
+import umbrellas from '../../assets/umbrellas.jpeg';
+import hpbuilding from '../../assets/hpbuilding.jpeg';
+import elateneo from '../../assets/elateneo.jpeg';
+import blackbackground from '../../assets/blackbackground.jpeg';
 
 class Home extends React.Component {
   //if u want to add slider this is the js for it.
@@ -132,7 +137,9 @@ class Home extends React.Component {
          <div className="gallery-column">
          <img src={ybw} className="img-fluid img-hover" alt=""/>
          <img src={boat} className="img-fluid img-hover" alt=""/>
+         <img src={waterfall} className="img-fluid img-hover" alt=""/>
          <img src={moon1} className="img-fluid img-hover" alt=""/>
+         <img src={elateneo} className="img-fluid img-hover" alt=""/>
          <img src={greenblue} className="img-fluid img-hover" alt=""/>
          <img src={moonscene} className="img-fluid img-hover" alt=""/>
          <img src={meditate} className="img-fluid img-hover" alt=""/>
@@ -140,14 +147,16 @@ class Home extends React.Component {
          <div className="gallery-column">
          <img src={purp} className="img-fluid img-hover" alt=""/>
          <img src={lone} className="img-fluid img-hover" alt=""/>
-         <img src={gt} className="img-fluid img-hover" alt=""/>
+         <img src={hpbuilding} className="img-fluid img-hover" alt=""/>
          <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
+         <img src={gt} className="img-fluid img-hover" alt=""/>
          <img src={northernlights} className="img-fluid img-hover" alt=""/>
          </div>
          <div className="gallery-column">
          <img src={converse} className="img-fluid img-hover" alt=""/>
          <img src={boots} className="img-fluid img-hover" alt=""/>
-         <img src={greenpath} className="img-fluid img-hover" alt=""/>
+         <img src={umbrellas} className="img-fluid img-hover" alt=""/>
+         <img src={blackbackground} className="img-fluid img-hover" alt=""/>
          <img src={steps} className="img-fluid img-hover" alt=""/>
          </div>
          </div>
@@ -157,7 +166,7 @@ class Home extends React.Component {
   }
 
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     return(
       <div>
         <div className="fab-home">
@@ -173,13 +182,13 @@ class Home extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-8 offset-md-2 text-center">
-               <p className="qoute">This is going to be a qoute I make.Mei ne equidem epicurei. Cu doctus sapientem
-                 vix, duo ei augue graece numquam, has ornatus incorrupte
-                 no. Case evertitur ex mea. At movet cotidieque vim, ex
-                 lorem nonumy facilisis cum. Ei novum errem exerci pro.
-                 Ex decore reformidans mei, at nam error oblique. Enim
-                 invenire prodesset nec an, dicant scripta sea ea. Ne nam
-                 quas posse postulant, facete sanctus luptatum in mel.
+               <p className="qoute">"As I discovered new scenes I realized there's
+               so much beauty to life than just four bedroom walls. Becoming
+               intrigued with all the peculiarity and beauty of each venture,
+               I wanted those moments to last so I decided to capture them.
+               And that was when I became interested in photography.
+               Having the freedom to capture anything I want and applying my own
+               creativity to make it even more beautiful."
                </p>
                <img className="signature" src={signature} alt="Faviola signature"/>
               </div>

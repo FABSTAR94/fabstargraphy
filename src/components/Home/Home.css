@@ -85,7 +85,7 @@
   display: block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .img-hover:hover {
     filter: brightness(100%) !important;
   }
@@ -99,6 +99,7 @@
     padding-left: 25px;
 
   }
+
   .side-menu a{
     font-size: 20px;
   }

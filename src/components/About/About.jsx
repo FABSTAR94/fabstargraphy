@@ -27,15 +27,15 @@ class About extends React.Component {
               <section>
                 <h3>Faviola Caballero</h3>
                   <p>I wasn't that girl who knew what she wanted to be at such a young age, and I envied those who did.
-                  Growing up I was a very shy girl who had very poor social skills. I was also reluctant to try new things.
+                  Growing up I was a very shy girl who lacked social skills. I was also reluctant to try new things.
                   Being the introvert I was, I spent most of my time inside four walls. If I wasn't doing my homework, writing poems, or working out at home,
                   you would see me playing video games. Most people I knew found it hard to believe that someone like me enjoyed
                   gaming, but it gave me something to do.</p>
                   <p>As the years passed by, I found myself stuck on the same chapter of my story.
-                  Lost, confused, and unhappy, I knew it was time for me to make a change.
+                  Lost, confused, and unhappy, I knew it was time to make a change.
                   I finally decided to step out of my comfort zone and see what was out there.
-                  I began to venture out to a few cities and countries around the world. Discovering
-                  new scenes I realized there's so much beauty to life than just four bedroom walls.
+                  I began to venture out to a few cities and countries around the world. As I Discovered
+                  new scenes, I realized there's so much beauty to life than just four bedroom walls.
                   Becoming intrigued with all the peculiarity and beauty of each venture, I wanted those moments to last so I decided to capture them.
                   And that was when I became interested in photography. Having the freedom to capture anything I want and applying
                   my own creativity to make it even more beautiful.

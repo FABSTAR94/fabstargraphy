@@ -14,6 +14,9 @@ import log from '../../../assets/log.png';
 import greenblue from '../../../assets/greenblue.png';
 import gardwater from '../../../assets/gardwater.png';
 import steps from '../../../assets/steps.png';
+import enchanted from '../../../assets/enchanted.jpeg';
+import pb from '../../../assets/pb.jpeg';
+import dragonfly from '../../../assets/dragonfly.jpeg';
 
 class Nature extends React.Component{
   renderImages(){
@@ -27,15 +30,18 @@ class Nature extends React.Component{
            <img src={greenblue} className="img-fluid img-hover" alt=""/>
            <img src={trees} className="img-fluid img-hover" alt=""/>
            <img src={gardwater} className="img-fluid img-hover" alt=""/>
+           <img src={dragonfly} className="img-fluid img-hover" alt=""/>
          </div>
          <div className="gallery-column">
          <img src={greenpath} className="img-fluid img-hover" alt=""/>
           <img src={dryplant} className="img-fluid img-hover" alt=""/>
           <img src={gt} className="img-fluid img-hover" alt=""/>
+          <img src={pb} className="img-fluid img-hover" alt=""/>
           <img src={ducks} className="img-fluid img-hover" alt=""/>
         </div>
         <div className="gallery-column">
           <img src={broken} className="img-fluid img-hover" alt=""/>
+          <img src={enchanted} className="img-fluid img-hover" alt=""/>
           <img src={steps} className="img-fluid img-hover" alt=""/>
           <img src={log} className="img-fluid img-hover" alt=""/>
           <img src={rocks} className="img-fluid img-hover" alt=""/>
@@ -47,7 +53,7 @@ class Nature extends React.Component{
     );
   }
   render(){
-    const isMobile = window.innerWidth <= 500 ? true : false;
+    const isMobile = window.innerWidth <= 600 ? true : false;
     const { backAction } = this.props;
     return(
       <div className="fav-selection">
