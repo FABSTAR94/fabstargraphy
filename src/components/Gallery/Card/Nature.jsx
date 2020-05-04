@@ -17,6 +17,7 @@ import steps from '../../../assets/steps.png';
 import enchanted from '../../../assets/enchanted.jpeg';
 import pb from '../../../assets/pb.jpeg';
 import dragonfly from '../../../assets/dragonfly.jpeg';
+import cows from '../../../assets/cows.jpeg';
 
 class Nature extends React.Component{
   renderImages(){
@@ -44,6 +45,7 @@ class Nature extends React.Component{
           <img src={enchanted} className="img-fluid img-hover" alt=""/>
           <img src={steps} className="img-fluid img-hover" alt=""/>
           <img src={log} className="img-fluid img-hover" alt=""/>
+          <img src={cows} className="img-fluid img-hover" alt=""/>
           <img src={rocks} className="img-fluid img-hover" alt=""/>
         </div>
         </div>
