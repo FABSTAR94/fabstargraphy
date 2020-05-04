@@ -23,6 +23,7 @@ import umbrellas from '../../assets/umbrellas.jpeg';
 import hpbuilding from '../../assets/hpbuilding.jpeg';
 import elateneo from '../../assets/elateneo.jpeg';
 import blackbackground from '../../assets/blackbackground.jpeg';
+import greenme from '../../assets/greenme.jpeg';
 
 class Home extends React.Component {
   //if u want to add slider this is the js for it.

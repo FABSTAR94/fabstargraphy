@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.css';
-import flowers from '../../assets/flowers.png';
 import signature from '../../assets/signature.png';
 import Footer from '../App/Footer.jsx';
+import mecanon from '../../assets/mecanon.jpeg';
 
 class About extends React.Component {
   render(){
@@ -18,7 +18,7 @@ class About extends React.Component {
 
           <div className="row">
             <div className="col-md-12">
-              <img src={flowers} className="img-fluid"alt="Faviola"/>
+              <img src={mecanon} className="img-fluid mecanon"alt="Faviola"/>
             </div>
           </div>
           <div className="row">
