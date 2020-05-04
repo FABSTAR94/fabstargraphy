@@ -26,8 +26,8 @@ class Family extends React.Component {
          </div>
 
          <div className="gallery-column">
-         <img src={eli} className="img-fluid img-hover" alt=""/>
          <img src={bash} className="img-fluid img-hover" alt=""/>
+         <img src={eli} className="img-fluid img-hover" alt=""/>
          <img src={two} className="img-fluid img-hover" alt=""/>
          </div>
 

@@ -24,6 +24,8 @@ import hpbuilding from '../../assets/hpbuilding.jpeg';
 import elateneo from '../../assets/elateneo.jpeg';
 import blackbackground from '../../assets/blackbackground.jpeg';
 import greenme from '../../assets/greenme.jpeg';
+import mecanon from '../../assets/mecanon.jpeg';
+import canoneye from '../../assets/canoneye.jpeg';
 
 class Home extends React.Component {
   //if u want to add slider this is the js for it.
