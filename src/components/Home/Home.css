@@ -33,7 +33,7 @@
 */
 
 .fav-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/canoneye.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/canoneye.jpeg");
   height: 550px;
   background-size: cover;
   background-position: 50%;
@@ -51,9 +51,6 @@
 }
 .banner-text span {
   font-size: 18px;
-  background-color: #000000;
-  padding: 5px;
-  border-radius: 2px;
 }
 
 .fav-qoute {
