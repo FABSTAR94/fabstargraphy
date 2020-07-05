@@ -23,7 +23,7 @@ import waterfall from '../../../assets/waterfall.jpeg';
 import rainbow from '../../../assets/rainbow.png';
 import moonscene from '../../../assets/moonscene.png';
 import branches from '../../../assets/branches.png';
-import branches from '../../../assets/bridalfall.jpg';
+import bridalfall from '../../../assets/bridalfall.jpg';
 
 class Landscape extends React.Component{
   renderImages() {
