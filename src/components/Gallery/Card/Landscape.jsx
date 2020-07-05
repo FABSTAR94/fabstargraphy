@@ -23,6 +23,7 @@ import waterfall from '../../../assets/waterfall.jpeg';
 import rainbow from '../../../assets/rainbow.png';
 import moonscene from '../../../assets/moonscene.png';
 import branches from '../../../assets/branches.png';
+import branches from '../../../assets/bridalfall.jpg';
 
 class Landscape extends React.Component{
   renderImages() {
@@ -34,6 +35,7 @@ class Landscape extends React.Component{
               <img src={ybw} className="img-fluid img-hover" alt=""/>
               <img src={lake} className="img-fluid img-hover" alt=""/>
               <img src={branches} className="img-fluid img-hover" alt=""/>
+              <img src={bridalfall} className="img-fluid img-hover" alt=""/>
               <img src={meditate} className="img-fluid img-hover" alt=""/>
               <img src={edgeclose} className="img-fluid img-hover" alt=""/>
               <img src={landset} className="img-fluid img-hover" alt=""/>
