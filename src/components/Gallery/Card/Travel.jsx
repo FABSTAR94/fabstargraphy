@@ -9,12 +9,9 @@ import hpbuilding from '../../../assets/hpbuilding.jpeg';
 import buildings from '../../../assets/buildings.jpeg';
 import sola from '../../../assets/sola.jpeg';
 import hpgarden from '../../../assets/hpgarden.jpeg';
-import hp from '../../../assets/hp.jpeg';
 import toplonbridge from '../../../assets/toplonbridge.jpeg';
 import painting from '../../../assets/painting.jpeg';
-import telephone from '../../../assets/telephone.jpeg';
 import boys from '../../../assets/boys.jpeg';
-import fly from '../../../assets/fly.png';
 import lonbridge from '../../../assets/lonbridge.jpeg';
 import elateneo from '../../../assets/elateneo.jpeg';
 import cemetery from '../../../assets/cemetery.jpeg';
@@ -30,28 +27,28 @@ class Travel extends React.Component{
                 <div className="container-fluid">
                   <div className="gallery-row">
                     <div className="gallery-column">
-                      <img src={vintageparis} className="img-fluid img-hover" alt=""/>
-                      <img src={hpgarden} className="img-fluid img-hover" alt=""/>
-                      <img src={umbrellas} className="img-fluid img-hover" alt=""/>
-                      <img src={buildings} className="img-fluid img-hover" alt=""/>
-                      <img src={elateneo} className="img-fluid img-hover" alt=""/>
-                      <img src={hpbuilding} className="img-fluid img-hover" alt=""/>
-                      <img src={caminito} className="img-fluid img-hover" alt=""/>
+                      <img src={vintageparis} className="img-fluid img-hover" alt="sitting on steps with eiffeltower in the background"/>
+                      <img src={hpgarden} className="img-fluid img-hover" alt="garden"/>
+                      <img src={umbrellas} className="img-fluid img-hover" alt="colorful umbrellas"/>
+                      <img src={buildings} className="img-fluid img-hover" alt="buildings"/>
+                      <img src={elateneo} className="img-fluid img-hover" alt="el ateneo"/>
+                      <img src={hpbuilding} className="img-fluid img-hover" alt="building"/>
+                      <img src={caminito} className="img-fluid img-hover" alt="caminito"/>
                     </div>
                      <div className="gallery-column">
-                      <img src={oldlady} className="img-fluid img-hover" alt=""/>
-                       <img src={sola} className="img-fluid img-hover" alt=""/>
-                      <img src={toplonbridge} className="img-fluid img-hover" alt=""/>
-                      <img src={motorcycle} className="img-fluid img-hover" alt=""/>
-                      <img src={eiffeltower} className="img-fluid img-hover" alt=""/>
-                      <img src={versailles} className="img-fluid img-hover" alt=""/>
+                      <img src={oldlady} className="img-fluid img-hover" alt="old lady"/>
+                       <img src={sola} className="img-fluid img-hover" alt="alone"/>
+                      <img src={toplonbridge} className="img-fluid img-hover" alt="london bridge"/>
+                      <img src={motorcycle} className="img-fluid img-hover" alt="motorcycle"/>
+                      <img src={eiffeltower} className="img-fluid img-hover" alt="eiffeltower"/>
+                      <img src={versailles} className="img-fluid img-hover" alt="versailles"/>
                     </div>
                      <div className="gallery-column">
-                      <img src={boys} className="img-fluid img-hover" alt=""/>
-                      <img src={cemetery} className="img-fluid img-hover" alt=""/>
-                      <img src={blackbackground} className="img-fluid img-hover" alt=""/>
-                      <img src={lonbridge} className="img-fluid img-hover" alt=""/>
-                      <img src={painting} className="img-fluid img-hover" alt=""/>
+                      <img src={boys} className="img-fluid img-hover" alt="boys"/>
+                      <img src={cemetery} className="img-fluid img-hover" alt="cemetery"/>
+                      <img src={blackbackground} className="img-fluid img-hover" alt="blackbackground"/>
+                      <img src={lonbridge} className="img-fluid img-hover" alt="alone underneath the bridge"/>
+                      <img src={painting} className="img-fluid img-hover" alt="painting"/>
                     </div>
                   </div>
                 </div>

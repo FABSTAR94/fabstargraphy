@@ -9,7 +9,6 @@ import Silhouette from '././Card/Silhouette.jsx';
 import Landscape from '././Card/Landscape.jsx';
 import Family from '././Card/Family.jsx';
 import gt from '../../assets/gt.png';
-import branches from '../../assets/branches.png';
 import hunter from '../../assets/hunter.png';
 import girlset from '../../assets/girlset.png';
 import yosemite3 from '../../assets/yosemite3.png';

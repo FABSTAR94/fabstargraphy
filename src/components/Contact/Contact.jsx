@@ -4,7 +4,7 @@ import Footer from '../App/Footer.jsx';
 import styled from 'styled-components';
 
 // email from https://postmail.invotes.com
-const FormId = "javascript_form";
+// const FormId = "javascript_form";
 
 const dataJs = {
     "access_token": "ascr3zhe35gpx88jvptujf42"
@@ -83,14 +83,14 @@ class Contact extends React.Component{
     const request = new XMLHttpRequest();
     const { name, email, message } = this.state;
     request.onreadystatechange = () => {
-        if (request.readyState == 4 && request.status == 200) {
+        if (request.readyState === 4 && request.status === 200) {
             this.js_onSuccess();
             this.setState({
               name: '',
               email: '',
               message: '',
             });
-        } else if (request.readyState == 4) {
+        } else if (request.readyState === 4) {
             this.js_onError(request.response);
         }
     };

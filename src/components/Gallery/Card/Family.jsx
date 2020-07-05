@@ -5,7 +5,6 @@ import ballons from '../../../assets/ballons.png';
 import nillaflowers from '../../../assets/nillaflowers.png';
 import nillaselfie from '../../../assets/nillaselfie.png';
 import two from '../../../assets/two.png';
-import sebash from '../../../assets/sebash.png';
 import daisy from '../../../assets/daisy.png';
 import eli from '../../../assets/eli.png';
 import cute from '../../../assets/cute.png';
@@ -20,21 +19,21 @@ class Family extends React.Component {
          <div className="gallery-row">
 
          <div className="gallery-column">
-         <img src={ballons} className="img-fluid img-hover" alt=""/>
-         <img src={daisy} className="img-fluid img-hover" alt=""/>
-         <img src={cute} className="img-fluid img-hover" alt=""/>
+         <img src={ballons} className="img-fluid img-hover" alt="ballons"/>
+         <img src={daisy} className="img-fluid img-hover" alt="daisies"/>
+         <img src={cute} className="img-fluid img-hover" alt="cute"/>
          </div>
 
          <div className="gallery-column">
-         <img src={bash} className="img-fluid img-hover" alt=""/>
-         <img src={eli} className="img-fluid img-hover" alt=""/>
-         <img src={two} className="img-fluid img-hover" alt=""/>
+         <img src={bash} className="img-fluid img-hover" alt="nephew"/>
+         <img src={eli} className="img-fluid img-hover" alt="niece"/>
+         <img src={two} className="img-fluid img-hover" alt="two"/>
          </div>
 
          <div className="gallery-column">
-         <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
-         <img src={trust} className="img-fluid img-hover" alt=""/>
-          <img src={nillaflowers} className="img-fluid img-hover" alt=""/>
+         <img src={nillaselfie} className="img-fluid img-hover" alt="nillaselfie"/>
+         <img src={trust} className="img-fluid img-hover" alt="holding hands"/>
+          <img src={nillaflowers} className="img-fluid img-hover" alt="dog with flowers"/>
          </div>
 
          </div>

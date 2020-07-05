@@ -13,16 +13,16 @@ class Silhouette extends React.Component{
           <div className="container-fluid">
             <div className="gallery-row">
               <div className="gallery-column">
-                <img src={lone} className="img-fluid img-hover" alt=""/>
-                <img src={northernlights} className="img-fluid img-hover" alt=""/>
+                <img src={lone} className="img-fluid img-hover" alt="lonely boy walking on sunset"/>
+                <img src={northernlights} className="img-fluid img-hover" alt="boys in the northern lights"/>
               </div>
               <div className="gallery-column">
-                <img src={girlset} className="img-fluid img-hover" alt=""/>
+                <img src={girlset} className="img-fluid img-hover" alt="girl sunset"/>
               </div>
 
               <div className="gallery-column">
-                <img src={love} className="img-fluid img-hover" alt=""/>
-                <img src={me} className="img-fluid img-hover" alt=""/>
+                <img src={love} className="img-fluid img-hover" alt="love sign with hands"/>
+                <img src={me} className="img-fluid img-hover" alt="standing on sunset"/>
               </div>
             </div>
           </div>
