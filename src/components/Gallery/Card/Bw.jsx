@@ -25,26 +25,28 @@ class Bw extends React.Component {
          <div className="gallery-row">
 
          <div className="gallery-column">
-         <img src={boots} className="img-fluid img-hover" alt=""/>
-         <img src={lux} className="img-fluid img-hover" alt=""/>
-         <img src={fairy} className="img-fluid img-hover" alt=""/>
-         <img src={red} className="img-fluid img-hover" alt=""/>
-         <img src={fullmoon} className="img-fluid img-hover" alt=""/>
+         <img src={boots} className="img-fluid img-hover" alt="boots"/>
+         <img src={lux} className="img-fluid img-hover" alt="guy"/>
+         <img src={fairy} className="img-fluid img-hover" alt="fairy"/>
+         <img src={red} className="img-fluid img-hover" alt="red"/>
+         <img src={fullmoon} className="img-fluid img-hover" alt="fullmoon"/>
          </div>
 
          <div className="gallery-column">
-         <img src={purp} className="img-fluid img-hover" alt=""/>
-         <img src={palmtrees} className="img-fluid img-hover" alt=""/>
-         <img src={moon1} className="img-fluid img-hover" alt=""/>
-         <img src={grave} className="img-fluid img-hover" alt=""/>
+         <img src={purp} className="img-fluid img-hover" alt="purpleflower"/>
+         <img src={palmtrees} className="img-fluid img-hover" alt="palmtrees"/>
+         <img src={moon1} className="img-fluid img-hover" alt="moonphase"/>
+         <img src={grave} className="img-fluid img-hover" alt="grave"/>
          </div>
 
          <div className="gallery-column">
-         <img src={converse} className="img-fluid img-hover" alt=""/>
-         <img src={hunter} className="img-fluid img-hover" alt=""/>
-         <img src={ridinghood} className="img-fluid img-hover" alt=""/>
-         <img src={head} className="img-fluid img-hover" alt=""/>
-         <img src={moon2} className="img-fluid img-hover" alt=""/>
+         <img src={converse} className="img-fluid img-hover" alt="converse"/>
+         <img src={hunter} className="img-fluid img-hover" alt="hunterboots"/>
+         <img src={ridinghood} className="img-fluid img-hover" alt="ridinghood"/>
+         <img src={head} className="img-fluid img-hover" alt="head"/>
+         <img src={fly} className="img-fluid img-hover" alt="paragliding"/>
+         <img src={moon2} className="img-fluid img-hover" alt="moonphase"/>
+
          </div>
 
          </div>

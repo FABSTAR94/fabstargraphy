@@ -32,33 +32,33 @@ class Landscape extends React.Component{
         <div className="container-fluid">
            <div className="gallery-row">
             <div className="gallery-column">
-              <img src={ybw} className="img-fluid img-hover" alt=""/>
-              <img src={lake} className="img-fluid img-hover" alt=""/>
-              <img src={branches} className="img-fluid img-hover" alt=""/>
-              <img src={bridalfall} className="img-fluid img-hover" alt=""/>
-              <img src={meditate} className="img-fluid img-hover" alt=""/>
-              <img src={edgeclose} className="img-fluid img-hover" alt=""/>
-              <img src={landset} className="img-fluid img-hover" alt=""/>
-              <img src={yosemite2} className="img-fluid img-hover" alt=""/>
-              <img src={rainbow} className="img-fluid img-hover" alt=""/>
+              <img src={ybw} className="img-fluid img-hover" alt="yellow blue view"/>
+              <img src={lake} className="img-fluid img-hover" alt="lake sunset"/>
+              <img src={branches} className="img-fluid img-hover" alt="branches"/>
+              <img src={bridalfall} className="img-fluid img-hover" alt="bridal falls"/>
+              <img src={meditate} className="img-fluid img-hover" alt="meditate"/>
+              <img src={edgeclose} className="img-fluid img-hover" alt="edge"/>
+              <img src={landset} className="img-fluid img-hover" alt="land"/>
+              <img src={yosemite2} className="img-fluid img-hover" alt="yosemite"/>
+              <img src={rainbow} className="img-fluid img-hover" alt="rainbow"/>
             </div>
             <div className="gallery-column">
-              <img src={waterfall} className="img-fluid img-hover" alt=""/>
-               <img src={beachset} className="img-fluid img-hover" alt=""/>
-              <img src={yosemite3} className="img-fluid img-hover" alt=""/>
-              <img src={couple} className="img-fluid img-hover" alt=""/>
-              <img src={fannette} className="img-fluid img-hover" alt=""/>
-              <img src={blue} className="img-fluid img-hover" alt=""/>
+              <img src={waterfall} className="img-fluid img-hover" alt="waterfall with rainbow"/>
+               <img src={beachset} className="img-fluid img-hover" alt="beach sunset"/>
+              <img src={yosemite3} className="img-fluid img-hover" alt="yosemite "/>
+              <img src={couple} className="img-fluid img-hover" alt="couple view"/>
+              <img src={fannette} className="img-fluid img-hover" alt="fannette island"/>
+              <img src={blue} className="img-fluid img-hover" alt="blue"/>
             </div>
             <div className="gallery-column">
-              <img src={boat} className="img-fluid img-hover" alt=""/>
-              <img src={mtns} className="img-fluid img-hover" alt=""/>
-              <img src={moonscene} className="img-fluid img-hover" alt=""/>
-              <img src={snowmtns} className="img-fluid img-hover" alt=""/>
-              <img src={fall} className="img-fluid img-hover" alt=""/>
-              <img src={yosemite1} className="img-fluid img-hover" alt=""/>
-              <img src={jadecove} className="img-fluid img-hover" alt=""/>
-              <img src={edgefar} className="img-fluid img-hover" alt=""/>
+              <img src={boat} className="img-fluid img-hover" alt="boat landscape"/>
+              <img src={mtns} className="img-fluid img-hover" alt="mountains"/>
+              <img src={moonscene} className="img-fluid img-hover" alt="moon scene"/>
+              <img src={snowmtns} className="img-fluid img-hover" alt="snow mountains"/>
+              <img src={fall} className="img-fluid img-hover" alt="fall"/>
+              <img src={yosemite1} className="img-fluid img-hover" alt="yosemite"/>
+              <img src={jadecove} className="img-fluid img-hover" alt="jade cove"/>
+              <img src={edgefar} className="img-fluid img-hover" alt="far of the edge"/>
             </div>
           </div>
         </div>

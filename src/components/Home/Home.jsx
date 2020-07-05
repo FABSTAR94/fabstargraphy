@@ -13,7 +13,6 @@ import converse from '../../assets/converse.png';
 import boots from '../../assets/boots.png';
 import ybw from '../../assets/ybw.png';
 import boat from '../../assets/boat.png';
-import greenpath from '../../assets/greenpath.png';
 import moon1 from '../../assets/moon1.png';
 import greenblue from '../../assets/greenblue.png';
 import steps from '../../assets/steps.png';
@@ -23,9 +22,6 @@ import umbrellas from '../../assets/umbrellas.jpeg';
 import hpbuilding from '../../assets/hpbuilding.jpeg';
 import elateneo from '../../assets/elateneo.jpeg';
 import blackbackground from '../../assets/blackbackground.jpeg';
-import greenme from '../../assets/greenme.jpeg';
-import mecanon from '../../assets/mecanon.jpeg';
-import canoneye from '../../assets/canoneye.jpeg';
 
 class Home extends React.Component {
   //if u want to add slider this is the js for it.
@@ -138,29 +134,29 @@ class Home extends React.Component {
         <div className="container-fluid">
          <div className="gallery-row">
          <div className="gallery-column">
-         <img src={ybw} className="img-fluid img-hover" alt=""/>
-         <img src={boat} className="img-fluid img-hover" alt=""/>
-         <img src={waterfall} className="img-fluid img-hover" alt=""/>
-         <img src={moon1} className="img-fluid img-hover" alt=""/>
-         <img src={elateneo} className="img-fluid img-hover" alt=""/>
-         <img src={greenblue} className="img-fluid img-hover" alt=""/>
-         <img src={moonscene} className="img-fluid img-hover" alt=""/>
-         <img src={meditate} className="img-fluid img-hover" alt=""/>
+         <img src={ybw} className="img-fluid img-hover" alt="yellow blue sunset"/>
+         <img src={boat} className="img-fluid img-hover" alt="boat view"/>
+         <img src={waterfall} className="img-fluid img-hover" alt="waterfall with rainbow"/>
+         <img src={moon1} className="img-fluid img-hover" alt="moon"/>
+         <img src={elateneo} className="img-fluid img-hover" alt="el ateneo"/>
+         <img src={greenblue} className="img-fluid img-hover" alt="green blue"/>
+         <img src={moonscene} className="img-fluid img-hover" alt="moon scene"/>
+         <img src={meditate} className="img-fluid img-hover" alt="meditate"/>
          </div>
          <div className="gallery-column">
-         <img src={purp} className="img-fluid img-hover" alt=""/>
-         <img src={lone} className="img-fluid img-hover" alt=""/>
-         <img src={hpbuilding} className="img-fluid img-hover" alt=""/>
-         <img src={nillaselfie} className="img-fluid img-hover" alt=""/>
-         <img src={gt} className="img-fluid img-hover" alt=""/>
-         <img src={northernlights} className="img-fluid img-hover" alt=""/>
+         <img src={purp} className="img-fluid img-hover" alt="purple"/>
+         <img src={lone} className="img-fluid img-hover" alt="alone"/>
+         <img src={hpbuilding} className="img-fluid img-hover" alt="hpbuilding"/>
+         <img src={nillaselfie} className="img-fluid img-hover" alt="dog selfie"/>
+         <img src={gt} className="img-fluid img-hover" alt="gt"/>
+         <img src={northernlights} className="img-fluid img-hover" alt="boys in northernlights"/>
          </div>
          <div className="gallery-column">
-         <img src={converse} className="img-fluid img-hover" alt=""/>
-         <img src={boots} className="img-fluid img-hover" alt=""/>
-         <img src={umbrellas} className="img-fluid img-hover" alt=""/>
-         <img src={blackbackground} className="img-fluid img-hover" alt=""/>
-         <img src={steps} className="img-fluid img-hover" alt=""/>
+         <img src={converse} className="img-fluid img-hover" alt="converse"/>
+         <img src={boots} className="img-fluid img-hover" alt="boots"/>
+         <img src={umbrellas} className="img-fluid img-hover" alt="colorful umbrellas"/>
+         <img src={blackbackground} className="img-fluid img-hover" alt="black background"/>
+         <img src={steps} className="img-fluid img-hover" alt="steps"/>
          </div>
          </div>
          </div>

@@ -26,27 +26,27 @@ class Nature extends React.Component{
         <div className="container-fluid">
          <div className="gallery-row">
          <div className="gallery-column">
-           <img src={road} className="img-fluid img-hover" alt=""/>
-           <img src={square} className="img-fluid img-hover" alt=""/>
-           <img src={greenblue} className="img-fluid img-hover" alt=""/>
-           <img src={trees} className="img-fluid img-hover" alt=""/>
-           <img src={gardwater} className="img-fluid img-hover" alt=""/>
-           <img src={dragonfly} className="img-fluid img-hover" alt=""/>
+           <img src={road} className="img-fluid img-hover" alt="road"/>
+           <img src={square} className="img-fluid img-hover" alt="squares"/>
+           <img src={greenblue} className="img-fluid img-hover" alt="green blue water"/>
+           <img src={trees} className="img-fluid img-hover" alt="trees"/>
+           <img src={gardwater} className="img-fluid img-hover" alt="garden waterfall"/>
+           <img src={dragonfly} className="img-fluid img-hover" alt="dragonfly"/>
          </div>
          <div className="gallery-column">
-         <img src={greenpath} className="img-fluid img-hover" alt=""/>
-          <img src={dryplant} className="img-fluid img-hover" alt=""/>
-          <img src={gt} className="img-fluid img-hover" alt=""/>
-          <img src={pb} className="img-fluid img-hover" alt=""/>
-          <img src={ducks} className="img-fluid img-hover" alt=""/>
+         <img src={greenpath} className="img-fluid img-hover" alt="green path "/>
+          <img src={dryplant} className="img-fluid img-hover" alt="dry plants"/>
+          <img src={gt} className="img-fluid img-hover" alt="gt"/>
+          <img src={pb} className="img-fluid img-hover" alt="pb"/>
+          <img src={ducks} className="img-fluid img-hover" alt="ducks"/>
         </div>
         <div className="gallery-column">
-          <img src={broken} className="img-fluid img-hover" alt=""/>
-          <img src={enchanted} className="img-fluid img-hover" alt=""/>
-          <img src={steps} className="img-fluid img-hover" alt=""/>
-          <img src={log} className="img-fluid img-hover" alt=""/>
-          <img src={cows} className="img-fluid img-hover" alt=""/>
-          <img src={rocks} className="img-fluid img-hover" alt=""/>
+          <img src={broken} className="img-fluid img-hover" alt="broken"/>
+          <img src={enchanted} className="img-fluid img-hover" alt="enchanted forest"/>
+          <img src={steps} className="img-fluid img-hover" alt="steps"/>
+          <img src={log} className="img-fluid img-hover" alt="log"/>
+          <img src={cows} className="img-fluid img-hover" alt="cows drinking water"/>
+          <img src={rocks} className="img-fluid img-hover" alt="rocks"/>
         </div>
         </div>
         </div>
