@@ -11,13 +11,13 @@ import Family from '././Card/Family.jsx';
 import gt from '../../assets/gt.png';
 import hunter from '../../assets/hunter.png';
 import girlset from '../../assets/girlset.png';
-import yosemite3 from '../../assets/yosemite3.png';
+import bridalfall from '../../assets/bridalfall.jpg';
 import ballons from '../../assets/ballons.png';
 import eiffeltower from '../../assets/eiffeltower.jpeg';
 const CARD_MAP = [
   {
     title: 'Landscape',
-    image: yosemite3,
+    image: bridalfall,
   },
   {
     title: 'Nature',
