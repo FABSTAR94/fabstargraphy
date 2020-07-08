@@ -19,6 +19,7 @@ import umbrellas from '../../../assets/umbrellas.jpeg';
 import motorcycle from '../../../assets/motorcycle.jpeg';
 import caminito from '../../../assets/caminito.jpeg';
 import versailles from '../../../assets/versailles.jpeg';
+import spaceneedle from '../../../assets/spaceneedle.jpeg';
 
 class Travel extends React.Component{
   renderImages() {
@@ -44,6 +45,7 @@ class Travel extends React.Component{
                       <img src={versailles} className="img-fluid img-hover" alt="versailles"/>
                     </div>
                      <div className="gallery-column">
+                      <img src={spaceneedle} className="img-fluid img-hover" alt="seattle space needle from below"/>
                       <img src={boys} className="img-fluid img-hover" alt="boys"/>
                       <img src={cemetery} className="img-fluid img-hover" alt="cemetery"/>
                       <img src={blackbackground} className="img-fluid img-hover" alt="blackbackground"/>
