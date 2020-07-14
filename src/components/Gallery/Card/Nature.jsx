@@ -1,13 +1,13 @@
 import React from 'react';
 import './Button.css';
 import { SRLWrapper } from 'simple-react-lightbox';
-import trees from '../../../assets/trees.png';
+import trees from '../../../assets/trees.webp';
 import rocks from '../../../assets/rocks.png';
 import road from '../../../assets/road.png';
 import ducks from '../../../assets/ducks.png';
 import dryplant from '../../../assets/dryplant.png';
 import gt from '../../../assets/gt.png';
-import greenpath from '../../../assets/greenpath.png';
+import greenpath from '../../../assets/greenpath.webp';
 import square from '../../../assets/square.png';
 import broken from '../../../assets/broken.png';
 import log from '../../../assets/log.png';
@@ -18,7 +18,8 @@ import enchanted from '../../../assets/enchanted.jpeg';
 import pb from '../../../assets/pb.jpeg';
 import dragonfly from '../../../assets/dragonfly.jpeg';
 import cows from '../../../assets/cows.jpeg';
-import fairycave from '../../../assets/fairycave.jpg';
+import fairycave from '../../../assets/fairycave.webp';
+import feelingblue from '../../../assets/feelingblue.webp';
 
 class Nature extends React.Component{
   renderImages(){
@@ -31,6 +32,7 @@ class Nature extends React.Component{
            <img src={square} className="img-fluid img-hover" alt="Square Path"/>
            <img src={greenblue} className="img-fluid img-hover" alt="Green Blue"/>
            <img src={trees} className="img-fluid img-hover" alt="Blurry Road in Autumn"/>
+           <img src={feelingblue} className="img-fluid img-hover" alt="Looking at the mountains feeling blue"/>
            <img src={gardwater} className="img-fluid img-hover" alt="Garden waterfall"/>
            <img src={dragonfly} className="img-fluid img-hover" alt="Dragonfly"/>
          </div>
