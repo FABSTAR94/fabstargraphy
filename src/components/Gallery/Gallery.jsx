@@ -8,7 +8,7 @@ import Bw from '././Card/Bw.jsx';
 import Silhouette from '././Card/Silhouette.jsx';
 import Landscape from '././Card/Landscape.jsx';
 import Family from '././Card/Family.jsx';
-import greenpath from '../../assets/greenpath.png';
+import greenpath from '../../assets/greenpath.webp';
 import hunter from '../../assets/hunter.png';
 import girlset from '../../assets/girlset.png';
 import bridalfall from '../../assets/bridalfall.jpg';
