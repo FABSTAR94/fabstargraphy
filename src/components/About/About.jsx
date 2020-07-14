@@ -1,8 +1,8 @@
 import React from 'react';
 import './About.css';
-import signature from '../../assets/signature.png';
+import signature from '../../assets/signature.webp';
 import Footer from '../App/Footer.jsx';
-import mecanon from '../../assets/mecanon.jpeg';
+import mecanon from '../../assets/mecanon.webp';
 
 class About extends React.Component {
   render(){

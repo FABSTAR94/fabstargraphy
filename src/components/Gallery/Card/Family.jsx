@@ -1,15 +1,15 @@
 import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import './Button.css';
-import ballons from '../../../assets/ballons.png';
-import nillaflowers from '../../../assets/nillaflowers.png';
-import nillaselfie from '../../../assets/nillaselfie.png';
-import two from '../../../assets/two.png';
-import daisy from '../../../assets/daisy.png';
-import eli from '../../../assets/eli.png';
-import cute from '../../../assets/cute.png';
-import trust from '../../../assets/trust.jpeg';
-import bash from '../../../assets/bash.jpeg';
+import ballons from '../../../assets/ballons.webp';
+import nillaflowers from '../../../assets/nillaflowers.webp';
+import nillaselfie from '../../../assets/nillaselfie.webp';
+import two from '../../../assets/two.webp';
+import daisy from '../../../assets/daisy.webp';
+import eli from '../../../assets/eli.webp';
+import cute from '../../../assets/cute.webp';
+import trust from '../../../assets/trust.webp';
+import bash from '../../../assets/bash.webp';
 
 class Family extends React.Component {
   renderImages() {

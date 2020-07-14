@@ -1,22 +1,22 @@
 import React from 'react';
 import './Button.css';
 import { SRLWrapper } from 'simple-react-lightbox';
-import fairy from '../../../assets/fairy.png';
-import red from '../../../assets/red.png';
-import hunter from '../../../assets/hunter.png';
-import purp from '../../../assets/purp.png';
-import ridinghood from '../../../assets/ridinghood.png';
-import palmtrees from '../../../assets/palmtrees.png';
-import converse from '../../../assets/converse.png';
-import lux from '../../../assets/lux.png';
-import boots from '../../../assets/boots.png';
-import head from '../../../assets/head.png';
-import fly from '../../../assets/fly.png';
-import moon1 from '../../../assets/moon1.png';
-import moon2 from '../../../assets/moon2.png';
-import fullmoon from '../../../assets/fullmoon.png';
-import grave from '../../../assets/grave.jpeg';
-import undermoon from '../../../assets/undermoon.jpg';
+import fairy from '../../../assets/fairy.webp';
+import red from '../../../assets/red.webp';
+import hunter from '../../../assets/hunter.webp';
+import purp from '../../../assets/purp.webp';
+import ridinghood from '../../../assets/ridinghood.webp';
+import palmtrees from '../../../assets/palmtrees.webp';
+import converse from '../../../assets/converse.webp';
+import lux from '../../../assets/lux.webp';
+import boots from '../../../assets/boots.webp';
+import head from '../../../assets/head.webp';
+import fly from '../../../assets/fly.webp';
+import moon1 from '../../../assets/moon1.webp';
+import moon2 from '../../../assets/moon2.webp';
+import fullmoon from '../../../assets/fullmoon.webp';
+import grave from '../../../assets/grave.webp';
+import undermoon from '../../../assets/undermoon.webp';
 
 class Bw extends React.Component {
   renderImages() {
