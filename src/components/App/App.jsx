@@ -1,7 +1,7 @@
 import React from 'react';
 import SimpleReactLightbox from "simple-react-lightbox";
 import styled from 'styled-components';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 import './App.css';
 import About from '../About/About.jsx';
 import Home from '../Home/Home.jsx';

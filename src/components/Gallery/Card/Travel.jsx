@@ -1,25 +1,25 @@
 import React from 'react';
 import './Button.css';
 import { SRLWrapper } from 'simple-react-lightbox';
-import oldlady from '../../../assets/oldlady.jpeg';
-import eiffeltower from '../../../assets/eiffeltower.jpeg';
-import vintageparis from '../../../assets/vintageparis.jpeg';
-import blackbackground from '../../../assets/blackbackground.jpeg';
-import hpbuilding from '../../../assets/hpbuilding.jpeg';
-import buildings from '../../../assets/buildings.jpeg';
-import sola from '../../../assets/sola.jpeg';
-import hpgarden from '../../../assets/hpgarden.jpeg';
-import toplonbridge from '../../../assets/toplonbridge.jpeg';
-import painting from '../../../assets/painting.jpeg';
-import boys from '../../../assets/boys.jpeg';
-import lonbridge from '../../../assets/lonbridge.jpeg';
-import elateneo from '../../../assets/elateneo.jpeg';
-import cemetery from '../../../assets/cemetery.jpeg';
-import umbrellas from '../../../assets/umbrellas.jpeg';
-import motorcycle from '../../../assets/motorcycle.jpeg';
-import caminito from '../../../assets/caminito.jpeg';
-import versailles from '../../../assets/versailles.jpeg';
-import spaceneedle from '../../../assets/spaceneedle.jpeg';
+import oldlady from '../../../assets/oldlady.webp';
+import eiffeltower from '../../../assets/eiffeltower.webp';
+import vintageparis from '../../../assets/vintageparis.webp';
+import blackbackground from '../../../assets/blackbackground.webp';
+import hpbuilding from '../../../assets/hpbuilding.webp';
+import buildings from '../../../assets/buildings.webp';
+import sola from '../../../assets/sola.webp';
+import hpgarden from '../../../assets/hpgarden.webp';
+import toplonbridge from '../../../assets/toplonbridge.webp';
+import painting from '../../../assets/painting.webp';
+import boys from '../../../assets/boys.webp';
+import lonbridge from '../../../assets/lonbridge.webp';
+import elateneo from '../../../assets/elateneo.webp';
+import cemetery from '../../../assets/cemetery.webp';
+import umbrellas from '../../../assets/umbrellas.webp';
+import motorcycle from '../../../assets/motorcycle.webp';
+import caminito from '../../../assets/caminito.webp';
+import versailles from '../../../assets/versailles.webp';
+import spaceneedle from '../../../assets/spaceneedle.webp';
 
 class Travel extends React.Component{
   renderImages() {
