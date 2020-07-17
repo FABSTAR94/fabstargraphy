@@ -2,22 +2,22 @@ import React from 'react';
 import './Button.css';
 import { SRLWrapper } from 'simple-react-lightbox';
 import trees from '../../../assets/trees.webp';
-import rocks from '../../../assets/rocks.webp';
-import road from '../../../assets/road.webp';
-import ducks from '../../../assets/ducks.webp';
-import dryplant from '../../../assets/dryplant.webp';
-import gt from '../../../assets/gt.webp';
+import rocks from '../../../assets/rocks.png';
+import road from '../../../assets/road.png';
+import ducks from '../../../assets/ducks.png';
+import dryplant from '../../../assets/dryplant.png';
+import gt from '../../../assets/gt.png';
 import greenpath from '../../../assets/greenpath.webp';
-import square from '../../../assets/square.webp';
-import broken from '../../../assets/broken.webp';
-import log from '../../../assets/log.webp';
-import greenblue from '../../../assets/greenblue.webp';
-import gardwater from '../../../assets/gardwater.webp';
-import steps from '../../../assets/steps.webp';
-import enchanted from '../../../assets/enchanted.webp';
-import pb from '../../../assets/pb.webp';
-import dragonfly from '../../../assets/dragonfly.webp';
-import cows from '../../../assets/cows.webp';
+import square from '../../../assets/square.png';
+import broken from '../../../assets/broken.png';
+import log from '../../../assets/log.png';
+import greenblue from '../../../assets/greenblue.png';
+import gardwater from '../../../assets/gardwater.png';
+import steps from '../../../assets/steps.png';
+import enchanted from '../../../assets/enchanted.jpeg';
+import pb from '../../../assets/pb.jpeg';
+import dragonfly from '../../../assets/dragonfly.jpeg';
+import cows from '../../../assets/cows.jpeg';
 import fairycave from '../../../assets/fairycave.webp';
 import feelingblue from '../../../assets/feelingblue.webp';
 
@@ -42,7 +42,6 @@ class Nature extends React.Component{
           <img src={gt} className="img-fluid img-hover" alt="gt"/>
           <img src={pb} className="img-fluid img-hover" alt="pb"/>
           <img src={ducks} className="img-fluid img-hover" alt="ducks"/>
-          <img src={rocks} className="img-fluid img-hover" alt="Jumbo Rocks"/>
         </div>
         <div className="gallery-column">
           <img src={fairycave} className="img-fluid img-hover" alt="Life is a Fairytale"/>
@@ -51,6 +50,7 @@ class Nature extends React.Component{
           <img src={steps} className="img-fluid img-hover" alt="Steps"/>
           <img src={log} className="img-fluid img-hover" alt="Log"/>
           <img src={cows} className="img-fluid img-hover" alt="Cow drinking water stare"/>
+          <img src={rocks} className="img-fluid img-hover" alt="Jumbo Rocks"/>
         </div>
         </div>
         </div>

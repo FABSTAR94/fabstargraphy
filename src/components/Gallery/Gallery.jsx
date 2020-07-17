@@ -9,11 +9,11 @@ import Silhouette from '././Card/Silhouette.jsx';
 import Landscape from '././Card/Landscape.jsx';
 import Family from '././Card/Family.jsx';
 import greenpath from '../../assets/greenpath.webp';
-import hunter from '../../assets/hunter.webp';
-import girlset from '../../assets/girlset.webp';
-import bridalfall from '../../assets/bridalfall.webp';
-import ballons from '../../assets/ballons.webp';
-import eiffeltower from '../../assets/eiffeltower.webp';
+import hunter from '../../assets/hunter.png';
+import girlset from '../../assets/girlset.png';
+import bridalfall from '../../assets/bridalfall.jpg';
+import ballons from '../../assets/ballons.png';
+import eiffeltower from '../../assets/eiffeltower.jpeg';
 const CARD_MAP = [
   {
     title: 'Landscape',

@@ -1,10 +1,10 @@
 import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
-import lone from '../../../assets/lone.webp';
-import girlset from '../../../assets/girlset.webp';
-import northernlights from '../../../assets/northernlights.webp';
-import love from '../../../assets/love.webp';
-import me from '../../../assets/me.webp';
+import lone from '../../../assets/lone.png';
+import girlset from '../../../assets/girlset.png';
+import northernlights from '../../../assets/northernlights.png';
+import love from '../../../assets/love.png';
+import me from '../../../assets/me.png';
 
 class Silhouette extends React.Component{
   renderImages() {
