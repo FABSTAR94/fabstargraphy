@@ -8,7 +8,7 @@ import purp from '../../../assets/purp.png';
 import ridinghood from '../../../assets/ridinghood.png';
 import palmtrees from '../../../assets/palmtrees.png';
 import converse from '../../../assets/converse.png';
-import lux from '../../../assets/lux.png';
+import editlux from '../../../assets/editlux.png';
 import boots from '../../../assets/boots.png';
 import head from '../../../assets/head.png';
 import fly from '../../../assets/fly.png';
@@ -27,7 +27,7 @@ class Bw extends React.Component {
 
          <div className="gallery-column">
          <img src={boots} className="img-fluid img-hover" alt="boots"/>
-         <img src={lux} className="img-fluid img-hover" alt="guy"/>
+         <img src={editlux} className="img-fluid img-hover" alt="Guy holding camera"/>
          <img src={fairy} className="img-fluid img-hover" alt="fairy"/>
          <img src={red} className="img-fluid img-hover" alt="red"/>
          <img src={fullmoon} className="img-fluid img-hover" alt="fullmoon"/>
