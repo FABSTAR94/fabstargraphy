@@ -17,6 +17,7 @@ import moon2 from '../../../assets/moon2.png';
 import fullmoon from '../../../assets/fullmoon.png';
 import grave from '../../../assets/grave.jpeg';
 import undermoon from '../../../assets/undermoon.jpg';
+import walk from '../../../assets/walk.jpg';
 
 class Bw extends React.Component {
   renderImages() {
@@ -35,6 +36,7 @@ class Bw extends React.Component {
 
          <div className="gallery-column">
          <img src={purp} className="img-fluid img-hover" alt="purpleflower"/>
+         <img src={walk} className="img-fluid img-hover" alt="Girl Walking"/>
          <img src={palmtrees} className="img-fluid img-hover" alt="palmtrees"/>
          <img src={moon1} className="img-fluid img-hover" alt="moonphase"/>
          <img src={grave} className="img-fluid img-hover" alt="grave"/>
