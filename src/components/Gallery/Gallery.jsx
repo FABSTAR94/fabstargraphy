@@ -7,12 +7,12 @@ import Travel from '././Card/Travel.jsx';
 import Bw from '././Card/Bw.jsx';
 import Silhouette from '././Card/Silhouette.jsx';
 import Landscape from '././Card/Landscape.jsx';
-import Family from '././Card/Family.jsx';
+import Canela from '././Card/Canela.jsx';
 import greenpath from '../../assets/greenpath.webp';
 import hunter from '../../assets/hunter.png';
 import girlset from '../../assets/girlset.png';
 import bridalfall from '../../assets/bridalfall.jpg';
-import ballons from '../../assets/ballons.png';
+import canelajt from '../../assets/canelajt.png';
 import eiffeltower from '../../assets/eiffeltower.jpeg';
 const CARD_MAP = [
   {
@@ -36,8 +36,8 @@ const CARD_MAP = [
     image: eiffeltower,
   },
   {
-    title: 'Family',
-    image: ballons,
+    title: 'Canela',
+    image: canelajt,
   }
 ]
 
@@ -47,7 +47,7 @@ const CARD_OPTIONS = [
   'Bw',
   'Silhouette',
   'Travel',
-  'Family',
+  'Canela',
 ];
 
 class Gallery extends React.Component {
@@ -103,10 +103,10 @@ class Gallery extends React.Component {
             />
          </div>
         );
-        case 'Family':
+        case 'Canela':
         return (
           <div>
-            <Family
+            <Canela
               backAction={() => this.setState({ currentCard: undefined })}
             />
          </div>

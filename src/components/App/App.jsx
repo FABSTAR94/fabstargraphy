@@ -115,7 +115,7 @@ class App extends React.Component {
 
       <footer>
       <ul>
-      <li><a href="https://www.instagram.com/fabstar_94/" target="blank"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/faventurescape/" target="blank"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
       <li><a href="https://www.linkedin.com/in/fabstar94-faviola-18fcg79341/" target="blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
       <li><a href="https://github.com/FABSTAR94" target="blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
       </ul>
