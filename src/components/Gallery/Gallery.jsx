@@ -14,49 +14,23 @@ import girlset from '../../assets/girlset.png';
 import bridalfall from '../../assets/bridalfall.jpg';
 import canelajt from '../../assets/canelajt.png';
 import eiffeltower from '../../assets/eiffeltower.jpeg';
-const CARD_MAP = [
-  {
-    title: 'Landscape',
-    image: bridalfall,
-  },
-  {
-    title: 'Nature',
-    image: greenpath,
-  },
-  {
-    title: 'Black & White',
-    image: hunter,
-  },
-  {
-    title: 'Silhouette',
-    image: girlset,
-  },
-  {
-    title: 'Travel',
-    image: eiffeltower,
-  },
-  {
-    title: 'Canela',
-    image: canelajt,
-  }
-]
 
-const CARD_OPTIONS = [
-  'Landscape',
-  'NATURE',
-  'Bw',
-  'Silhouette',
-  'Travel',
-  'Canela',
-];
+const CARD_MAP = {
+  'Landscape': bridalfall,
+  'Nature': greenpath,
+  'Black & White': hunter,
+  'Silhouette': girlset,
+  'Travel': eiffeltower,
+  'Canela': canelajt,
+}
 
 class Gallery extends React.Component {
    state = {
     currentCard: null,
   }
 
-  handleCardOptionClick(idx) {
-    this.setState({ currentCard: CARD_OPTIONS[idx] })
+  handleCardOptionClick(title) {
+    this.setState({ currentCard: title })
   }
 
   renderViewCard() {
@@ -71,7 +45,7 @@ class Gallery extends React.Component {
            />
          </div>
         );
-        case 'NATURE':
+        case 'Nature':
         return (
           <div>
             <Nature
@@ -79,7 +53,7 @@ class Gallery extends React.Component {
             />
          </div>
         );
-        case 'Bw':
+        case 'Black & White':
         return (
           <div>
             <Bw
@@ -117,13 +91,13 @@ class Gallery extends React.Component {
   }
 
   renderCards() {
-    return CARD_MAP.map((card, idx) => {
+    return Object.entries(CARD_MAP).map((card, idx) => {
       return (
         <Card
           key={idx}
-          clickEvent={() => this.handleCardOptionClick(idx)}
-          image={card.image}
-          title={card.title}
+          clickEvent={() => this.handleCardOptionClick(card[0])}
+          image={card[1]}
+          title={card[0]}
         />
       )
     })
