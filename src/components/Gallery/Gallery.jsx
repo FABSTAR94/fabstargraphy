@@ -15,6 +15,8 @@ import bridalfall from '../../assets/bridalfall.jpg';
 import canelajt from '../../assets/canelajt.png';
 import eiffeltower from '../../assets/eiffeltower.jpeg';
 
+//whenever you add a function to a class it becomes a method, so proper way to name it is METHOD, 
+//handleCardOptionClick(), renderViewCard(), renderCards(), render() are all METHODS
 const CARD_MAP = {
   'Landscape': bridalfall,
   'Nature': greenpath,
@@ -24,11 +26,26 @@ const CARD_MAP = {
   'Canela': canelajt,
 }
 
+// Object.keys()
+// Object.values()
+// Object.entries(CARD_MAP)
+// returns...
+// [
+//   ['Landscape', bridalfall],
+//   ['Nature', greenpath],
+//   ['Black & White', hunter],
+//   ['Silhouette', girlset],
+//   ['Travel', eiffeltower],
+//   ['Canela', canelajt],
+// ]
+
+//when creating react components using a class you have to extend to React.Compenent
 class Gallery extends React.Component {
    state = {
     currentCard: null,
   }
-
+/*defined a method called handleCardOptionClick, and this.setStae is what changes state.
+It was previosuly null then dependingon what user clicks, state gets set to that card.*/
   handleCardOptionClick(title) {
     this.setState({ currentCard: title })
   }
@@ -91,21 +108,46 @@ class Gallery extends React.Component {
   }
 
   renderCards() {
+    /*Object.entries returns an array of arrays containing the key value pairs of the Object CARD_MAP.
+    .map method iterates over every element in the array and returns 
+     'Landscape': bridalfall,
+     'Nature': greenpath,
+     'Black & White': hunter,
+     'Silhouette': girlset,
+     'Travel': eiffeltower,
+     'Canela': canelajt,
+     --------------------------
+    [
+    ['Landscape', bridalfall]
+    ['Nature', greenpath]
+    ['Silhouette', girlset]
+    ['Travel', eiffeltower]
+    ['Canela', canelajt]
+     ]
+    */
+   //card param is each array and the idx is the index of one array. 
     return Object.entries(CARD_MAP).map((card, idx) => {
       return (
+        // whenever you pass on props to a react component you set a property, in this case key, clickEvent, title, image
         <Card
+        // google what key is, and idx in this is referring to the index of a specific array inside the array of arrays
           key={idx}
+          // if u click on it set that specific card title because index 0 is the title inside array of arrays
           clickEvent={() => this.handleCardOptionClick(card[0])}
-          image={card[1]}
+          // you are getting title and image props from the Card.jsx file
+          // you add these properties to display what the title and image is for each card, else it will just 
+          // display an empty card to the user
           title={card[0]}
+          image={card[1]}
         />
       )
     })
   }
-
+// Everytime state is changed the render method gets invoked
   render(){
     return(
       <div>
+        {/* {renderViewCard method default is null which null is faulty, so here you are saying renderViewCard is NOT false so it is TRUE//} */}
       {!this.renderViewCard() &&
         <div className="fav-gallery">
         <div className="container-fluid">
