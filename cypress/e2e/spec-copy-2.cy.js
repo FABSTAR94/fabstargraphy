@@ -9,3 +9,6 @@ describe('template spec', () => {
     cy.get('button[class*="back-btn"]').click();
   })
 })
+/*wrote an e2e automated test that clicks on gallery from menu then 
+clicks on a Card, clicks on an image to open react lighbox then closes 
+it to return to gallery*/
